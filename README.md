@@ -6,7 +6,6 @@ Author: [Jayli](https://github.com/jayli)
 
 只要保持`{&filetype}.*`作为该语言的词表文件即可，后缀不限，基于 [Pathogen.vim](https://github.com/tpope/vim-pathogen) 安装（VIM7 & 8)
 
-
 	cd ~/.vim/bundle/
 	git clone https://github.com/jayli/vim-dictionary.git
 
