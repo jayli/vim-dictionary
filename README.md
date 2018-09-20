@@ -15,3 +15,5 @@ Author: [Jayli](https://github.com/jayli)
 		~/.vim/pack/dist/start/vim-dictionary
 
 Done!
+
+配合 [Vim-EasyComplete](https://github.com/jayli/vim-easycomplete) 一起使用体验最佳!
