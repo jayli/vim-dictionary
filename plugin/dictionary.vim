@@ -1,11 +1,11 @@
-" == "acomment" == {{{
+" == "acomment" == 
 "
 "	File:		dictionary.vim
 "	Author:		Jayli
 "	Modifier:	Jayli
 "	Modified:	2018-09-28
 "
-" --}}}
+" --
 "
 
 function! AutoLoadDict()
