@@ -3847,7 +3847,6 @@ RunExamples
 RunTests
 Short
 Verbose
-B
 Error
 Errorf
 Fail
@@ -3882,12 +3881,10 @@ CoverBlock
 InternalBenchmark
 InternalExample
 InternalTest
-M
 MainStart
 Run
 PB
 Next
-T
 Error
 Errorf
 Fail
