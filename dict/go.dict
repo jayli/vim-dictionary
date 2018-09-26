@@ -175,41 +175,7 @@ var
 windows
 ===========================================
 archive/tar
-TypeReg           
-TypeRegA          
-TypeLink          
-TypeSymlink       
-TypeChar          
-TypeBlock         
-TypeDir           
-TypeFifo          
-TypeCont          
-TypeXHeader       
-TypeXGlobalHeader 
-TypeGNULongName   
-TypeGNULongLink   
-TypeGNUSparse    
 
-ErrWriteTooLong    
-ErrFieldTooLong    
-ErrWriteAfterClose 
-ErrHeader
-
-Name       
-Mode       
-Uid        
-Gid        
-Size       
-ModTime    
-Typeflag   
-Linkname   
-Uname      
-Gname      
-Devmajor   
-Devminor   
-AccessTime  
-ChangeTime  
-Xattrs     
 
 FileInfoHeader
 FileInfo
@@ -225,11 +191,6 @@ Flush
 Close
 -----------
 archive/zip
-Store
-Deflate
-ErrFormat
-ErrAlgorithm
-ErrChecksum
 Compressor
 Decompressor
 RegisterCompressor
@@ -270,16 +231,8 @@ Create
 ==================
 bufio
 
-MaxScanTokenSize
-ErrInvalidUnreadByte
-ErrInvalidUnreadRune
-ErrBufferFull
-ErrNegativeCount
-ErrTooLong
-ErrNegativeAdvance
-ErrAdvanceTooFar
-
 NewReaderSize
+Size
 Reset
 Buffered
 Peek
@@ -409,11 +362,6 @@ WriteTo
 builtin
 bytes
 =======================
-NoCompression 
-BestSpeed    
-BestCompression    
-DefaultCompression 
-CorruptInputError
 InternalError
 ReadError
 WriteError
@@ -423,7 +371,6 @@ NewWriterDict
 compress/flate
 ===============
 compress/bzip2
-StructuralError
 ==============
 compress/gzip
 Header
@@ -482,4 +429,11 @@ PublicKey
 PrivateKey
 Hash
 RegisterHash
+=======
+aes
+NewCipher
+KeySizeError
+=====
+crypto/cipher
+TODO===>
 
