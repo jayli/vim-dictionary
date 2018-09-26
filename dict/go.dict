@@ -250,6 +250,7 @@ Available
 WriteString
 WriteByte
 WriteRune
+Read
 ReadFrom
 NewReadWriter
 SplitFunc
@@ -328,7 +329,6 @@ SplitAfter
 SplitAfterN
 Join
 Len
-Read
 ReadByte
 UnreadByte
 ReadRune
@@ -517,4 +517,324 @@ ConstantTimeLessOrEq
 ConstantTimeCompare
 ConstantTimeCopy
 ConstantTimeSelect
-crypto/tls => TODO
+crypto/tls
+ClientAuthType
+CurveID
+Certificate
+LoadX509KeyPair
+X509KeyPair
+ClientSessionState
+ClientSessionCache
+NewLRUClientSessionCache
+BuildNameToCertificate
+ConnectionState
+LocalAddr
+RemoteAddr
+ConnectionState
+SetDeadline
+SetReadDeadline
+SetWriteDeadline
+Handshake
+VerifyHostname
+OCSPResponse
+Client
+Server
+Dial
+DialWithDialer
+Listen
+NewListener
+x509 ==> TODO
+database/sql
+Scan
+Value
+NullInt64
+Scan
+Value
+NullFloat64
+Scan
+Value
+NullString
+Scan
+Value
+RawBytes
+Result
+Open
+Driver
+Ping
+Close
+SetMaxOpenConns
+SetMaxIdleConns
+Exec
+Query
+QueryRow
+Prepare
+Begin
+Row
+Scan
+Columns
+Scan
+Next
+Close
+Err
+Stmt
+Exec
+Query
+QueryRow
+Close
+Tx
+Exec
+Query
+QueryRow
+Prepare
+Stmt
+Commit
+Rollback
+Register
+driver
+IsValue
+IsScanValue
+ValueConverter
+ColumnConverter
+NotNull
+ConvertValue
+Null
+ConvertValue
+Driver
+Conn
+Execer
+Queryer
+Stmt
+Tx
+Result
+RowsAffected
+LastInsertId
+RowsAffected
+Rows
+dwarf
+AddrType
+ArrayType
+Size
+String
+Attr
+GoString
+String
+BasicType
+Basic
+String
+BoolType
+CharType
+Class
+GoString
+CommonType
+Common
+Size
+ComplexType
+Data
+AddTypes
+LineReader
+Ranges
+Reader
+Type
+DecodeError
+DotDotDotType
+Entry
+AttrField
+Val
+EnumType
+EnumValue
+Field
+FloatType
+FuncType
+IntType
+LineEntry
+LineFile
+LineReader
+Next
+Reset
+Seek
+SeekPC
+Tell
+LineReaderPos
+Offset
+PtrType
+String
+QualType
+Reader
+AddressSize
+Seek
+SeekPC
+SkipChildren
+StructField
+StructType
+Defn
+Tag
+GoString
+String
+Type
+TypedefType
+Size
+String
+UcharType
+UintType
+UnspecifiedType
+VoidType
+R_INFO
+R_INFO32
+R_SYM32
+R_SYM64
+R_TYPE32
+R_TYPE64
+ST_INFO
+Chdr32
+Chdr64
+Class
+ GoString
+ String
+CompressionType
+ GoString
+ String
+Data
+ GoString
+ String
+Dyn32
+Dyn64
+DynFlag
+ GoString
+ String
+DynTag
+ GoString
+ String
+File
+NewFile
+Open
+ Close
+ DWARF
+ DynString
+ DynamicSymbols
+ ImportedLibraries
+ ImportedSymbols
+ Section
+ SectionByType
+ Symbols
+FileHeader
+FormatError
+ Error
+Header32
+Header64
+ImportedSymbol
+Machine
+ GoString
+ String
+NType
+ GoString
+ String
+OSABI
+ GoString
+ String
+Prog
+ Open
+Prog32
+Prog64
+ProgFlag
+ GoString
+ String
+ProgHeader
+ProgType
+ GoString
+ String
+R_386
+ GoString
+ String
+R_390
+ GoString
+ String
+R_AARCH64
+ GoString
+ String
+R_ALPHA
+ GoString
+ String
+R_ARM
+ GoString
+ String
+R_MIPS
+ GoString
+ String
+R_PPC
+ GoString
+ String
+R_PPC64
+ GoString
+ String
+R_SPARC
+ GoString
+ String
+R_X86_64
+ GoString
+ String
+Rel32
+Rel64
+Rela32
+Rela64
+Section
+ Data
+ Open
+Section32
+Section64
+SectionFlag
+ GoString
+ String
+SectionHeader
+SectionIndex
+ GoString
+ String
+SectionType
+ GoString
+ String
+Sym32
+Sym64
+SymBind
+ST_BIND
+ GoString
+ String
+SymType
+ST_TYPE
+ GoString
+ String
+SymVis
+ST_VISIBILITY
+ GoString
+ String
+Symbol
+Type
+ GoString
+ String
+Version
+ GoString
+ String
+ gosym
+ type DecodingError
+ Error
+type Func
+type LineTable
+func NewLineTable
+ LineToPC
+ PCToLine
+type Obj
+type Sym
+ BaseName
+ PackageName
+ ReceiverName
+ Static
+type Table
+func NewTable
+ LineToPC
+ LookupFunc
+ LookupSym
+ PCToFunc
+ PCToLine
+ SymByAddr
+type UnknownFileError
+ Error
+type UnknownLineError
+macho => TODO
