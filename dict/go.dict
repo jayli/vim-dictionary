@@ -509,4 +509,12 @@ SignPSS
 VerifyPSS
 sha1
 sha256
-crypto/sha512 TODO =>
+crypto/sha512 
+subtle
+ConstantTimeByteEq
+ConstantTimeEq
+ConstantTimeLessOrEq
+ConstantTimeCompare
+ConstantTimeCopy
+ConstantTimeSelect
+crypto/tls => TODO
