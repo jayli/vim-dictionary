@@ -8,10 +8,10 @@ cap
 case
 chan
 close
-complex 
+complex
 complex128
 complex64
-const 
+const
 continue
 copy
 default
@@ -27,11 +27,11 @@ float64
 for
 func
 go
-goto 
+goto
 if
 imag
 import
-int 
+int
 int16
 int32
 int64
@@ -42,7 +42,7 @@ len
 main
 make
 map
-new 
+new
 nil
 package
 panic
@@ -175,8 +175,6 @@ var
 windows
 ===========================================
 archive/tar
-
-
 FileInfoHeader
 FileInfo
 Reader
@@ -196,24 +194,22 @@ Decompressor
 RegisterCompressor
 RegisterDecompressor
 FileHeader
-
 Name
 Order
-CreatorVersion     
-ReaderVersion      
-Flags              
-Method             
-ModifiedTime       
-ModifiedDate       
-CRC32              
-CompressedSize     
-UncompressedSize   
-CompressedSize64   
-UncompressedSize64 
-Extra              
-ExternalAttrs      
-Comment            
-
+CreatorVersion
+ReaderVersion
+Flags
+Method
+ModifiedTime
+ModifiedDate
+CRC32
+CompressedSize
+UncompressedSize
+CompressedSize64
+UncompressedSize64
+Extra
+ExternalAttrs
+Comment
 FileInfoHeader
 FileInfo
 Mode
@@ -230,7 +226,6 @@ CreateHeader
 Create
 ==================
 bufio
-
 NewReaderSize
 Size
 Reset
@@ -265,7 +260,6 @@ Scan
 Bytes
 Text
 Err
-
 IntegerType
 FloatType
 ComplexType
@@ -282,9 +276,7 @@ close
 panic
 recover
 print
-
 ===================
-
 Compare
 Equal
 EqualFold
@@ -379,7 +371,6 @@ NewWriterLevel
 compress/lzw
 compress/zlib
 =============
-
 NewWriterLevelDict
 =========
 Init
@@ -508,7 +499,7 @@ SignPSS
 VerifyPSS
 sha1
 sha256
-crypto/sha512 
+crypto/sha512
 subtle
 ConstantTimeByteEq
 ConstantTimeEq
@@ -687,157 +678,156 @@ ST_INFO
 Chdr32
 Chdr64
 Class
- GoString
- String
+GoString
+String
 CompressionType
- GoString
- String
+GoString
+String
 Data
- GoString
- String
+GoString
+String
 Dyn32
 Dyn64
 DynFlag
- GoString
- String
+GoString
+String
 DynTag
- GoString
- String
+GoString
+String
 File
 NewFile
 Open
- Close
- DWARF
- DynString
- DynamicSymbols
- ImportedLibraries
- ImportedSymbols
- Section
- SectionByType
- Symbols
+Close
+DWARF
+DynString
+DynamicSymbols
+ImportedLibraries
+ImportedSymbols
+Section
+SectionByType
+Symbols
 FileHeader
 FormatError
- Error
+Error
 Header32
 Header64
 ImportedSymbol
 Machine
- GoString
- String
+GoString
+String
 NType
- GoString
- String
+GoString
+String
 OSABI
- GoString
- String
+GoString
+String
 Prog
- Open
+Open
 Prog32
 Prog64
 ProgFlag
- GoString
- String
+GoString
+String
 ProgHeader
 ProgType
- GoString
- String
+GoString
+String
 R_386
- GoString
- String
+GoString
+String
 R_390
- GoString
- String
+GoString
+String
 R_AARCH64
- GoString
- String
+GoString
+String
 R_ALPHA
- GoString
- String
+GoString
+String
 R_ARM
- GoString
- String
+GoString
+String
 R_MIPS
- GoString
- String
+GoString
+String
 R_PPC
- GoString
- String
+GoString
+String
 R_PPC64
- GoString
- String
+GoString
+String
 R_SPARC
- GoString
- String
+GoString
+String
 R_X86_64
- GoString
- String
+GoString
+String
 Rel32
 Rel64
 Rela32
 Rela64
 Section
- Data
- Open
+Data
+Open
 Section32
 Section64
 SectionFlag
- GoString
- String
+GoString
+String
 SectionHeader
 SectionIndex
- GoString
- String
+GoString
+String
 SectionType
- GoString
- String
+GoString
+String
 Sym32
 Sym64
 SymBind
 ST_BIND
- GoString
- String
+GoString
+String
 SymType
 ST_TYPE
- GoString
- String
+GoString
+String
 SymVis
 ST_VISIBILITY
- GoString
- String
+GoString
+String
 Symbol
 Type
- GoString
- String
+GoString
+String
 Version
- GoString
- String
- gosym
- type DecodingError
- Error
-type Func
-type LineTable
-func NewLineTable
- LineToPC
- PCToLine
-type Obj
-type Sym
- BaseName
- PackageName
- ReceiverName
- Static
-type Table
-func NewTable
- LineToPC
- LookupFunc
- LookupSym
- PCToFunc
- PCToLine
- SymByAddr
-type UnknownFileError
- Error
-type UnknownLineError
+GoString
+String
+gosym
+DecodingError
+Error
+Func
+LineTable
+NewLineTable
+LineToPC
+PCToLine
+Obj
+Sym
+BaseName
+PackageName
+ReceiverName
+Static
+Table
+NewTable
+LineToPC
+LookupFunc
+LookupSym
+PCToFunc
+PCToLine
+SymByAddr
+UnknownFileError
+Error
+UnknownLineError
 macho
-
 Cpu
 Dylib
 DylibCmd
@@ -851,29 +841,20 @@ OpenFat
 File
 NewFile
 Open
-
 FileHeader
 FormatError
-
 Load
 LoadBytes
-
 LoadCmd
-
-
 Nlist32
 Nlist64
 Regs386
 RegsAMD64
 Section
-
-
 Section32
 Section64
 SectionHeader
 Segment
-
-
 Segment32
 Segment64
 SegmentHeader
@@ -882,3357 +863,3316 @@ Symtab
 SymtabCmd
 Thread
 Type
-type COFFSymbol
- FullName
-type DataDirectory
-type File
-func NewFile
-func Open
- Close
- DWARF
- ImportedLibraries
- ImportedSymbols
- Section
-type FileHeader
-type FormatError
- Error
-type ImportDirectory
-type OptionalHeader32
-type OptionalHeader64
-type Reloc
-type Section
- Data
- Open
-type SectionHeader
-type SectionHeader32
-type StringTable
- String
-type Symbol
+COFFSymbol
+FullName
+DataDirectory
+File
+NewFile
+Open
+Close
+DWARF
+ImportedLibraries
+ImportedSymbols
+Section
+FileHeader
+FormatError
+Error
+ImportDirectory
+OptionalHeader32
+OptionalHeader64
+Reloc
+Section
+Data
+Open
+SectionHeader
+SectionHeader32
+StringTable
+String
+Symbol
 plan9obj
-type File
-func NewFile
-func Open
- Close
- Section
- Symbols
-type FileHeader
-type Section
- Data
- Open
-type SectionHeader
-type Sym
+File
+NewFile
+Open
+Close
+Section
+Symbols
+FileHeader
+Section
+Data
+Open
+SectionHeader
+Sym
 encoding
-type BinaryMarshaler
-type BinaryUnmarshaler
-type TextMarshaler
-type TextUnmarshaler
+BinaryMarshaler
+BinaryUnmarshaler
+TextMarshaler
+TextUnmarshaler
 ascii85
-type CorruptInputError
- Error
-func MaxEncodedLen
-func Encode
-func Decode
-func NewEncoder
-func NewDecoder
-
+CorruptInputError
+Error
+MaxEncodedLen
+Encode
+Decode
+NewEncoder
+NewDecoder
 asn1
-type SyntaxError
- Error
-type StructuralError
- Error
-type RawContent
-type RawValue
-type Flag
-type Enumerated
-type BitString
- At
- RightAlign
-type ObjectIdentifier
- Equal
- String
-func Marshal
-func Unmarshal
-func UnmarshalWithParams
+SyntaxError
+Error
+StructuralError
+Error
+RawContent
+RawValue
+Flag
+Enumerated
+BitString
+At
+RightAlign
+ObjectIdentifier
+Equal
+String
+Marshal
+Unmarshal
+UnmarshalWithParams
 base32
-type CorruptInputError
- Error
-type Encoding
-func NewEncoding
- DecodedLen
- Decode
- DecodeString
- EncodedLen
- Encode
- EncodeToString
-func NewDecoder
-func NewEncoder
+CorruptInputError
+Error
+Encoding
+NewEncoding
+DecodedLen
+Decode
+DecodeString
+EncodedLen
+Encode
+EncodeToString
+NewDecoder
+NewEncoder
 base64
-type CorruptInputError
- Error
-type Encoding
-func NewEncoding
- DecodedLen
- Decode
- DecodeString
- EncodedLen
- Encode
- EncodeToString
-func NewDecoder
-func NewEncoder
-
+CorruptInputError
+Error
+Encoding
+NewEncoding
+DecodedLen
+Decode
+DecodeString
+EncodedLen
+Encode
+EncodeToString
+NewDecoder
+NewEncoder
 binary
-type ByteOrder
-func Size
-func Uvarint
-func Varint
-func ReadUvarint
-func ReadVarint
-func PutUvarint
-func PutVarint
-func Read
-func Write
+ByteOrder
+Size
+Uvarint
+Varint
+ReadUvarint
+ReadVarint
+PutUvarint
+PutVarint
+Read
+Write
 csv
-type ParseError
- Error
-type Reader
-func NewReader
- Read
- ReadAll
-type Writer
-func NewWriter
- Write
- WriteAll
- Flush
- Error
+ParseError
+Error
+Reader
+NewReader
+Read
+ReadAll
+Writer
+NewWriter
+Write
+WriteAll
+Flush
+Error
 gob
-type GobDecoder
-type GobEncoder
-func Register
-func RegisterName
-type Decoder
-func NewDecoder
- Decode
- DecodeValue
-type Encoder
-func NewEncoder
- Encode
- EncodeValue
+GobDecoder
+GobEncoder
+Register
+RegisterName
+Decoder
+NewDecoder
+Decode
+DecodeValue
+Encoder
+NewEncoder
+Encode
+EncodeValue
 hex
-type InvalidByteError
- Error
-func DecodedLen
-func Decode
-func DecodeString
-func EncodedLen
-func Encode
-func EncodeToString
-func Dump
-func Dumper
+InvalidByteError
+Error
+DecodedLen
+Decode
+DecodeString
+EncodedLen
+Encode
+EncodeToString
+Dump
+Dumper
 json
-type InvalidUTF8Error
- Error
-type InvalidUnmarshalError
- Error
-type SyntaxError
- Error
-type UnmarshalFieldError
- Error
-type UnmarshalTypeError
- Error
-type UnsupportedTypeError
- Error
-type UnsupportedValueError
- Error
-type MarshalerError
- Error
-type Number
- Int64
- Float64
- String
-type RawMessage
- MarshalJSON
- UnmarshalJSON
-type Marshaler
-type Unmarshaler
-func Compact
-func HTMLEscape
-func Indent
-func Marshal
-func MarshalIndent
-func Unmarshal
-type Decoder
-func NewDecoder
- Buffered
- UseNumber
- Decode
-type Encoder
-func NewEncoder
- Encode
+InvalidUTF8Error
+Error
+InvalidUnmarshalError
+Error
+SyntaxError
+Error
+UnmarshalFieldError
+Error
+UnmarshalTypeError
+Error
+UnsupportedTypeError
+Error
+UnsupportedValueError
+Error
+MarshalerError
+Error
+Number
+Int64
+Float64
+String
+RawMessage
+MarshalJSON
+UnmarshalJSON
+Marshaler
+Unmarshaler
+Compact
+HTMLEscape
+Indent
+Marshal
+MarshalIndent
+Unmarshal
+Decoder
+NewDecoder
+Buffered
+UseNumber
+Decode
+Encoder
+NewEncoder
+Encode
 pem
-type Block
-func Decode
-func Encode
-func EncodeToMemory
+Block
+Decode
+Encode
+EncodeToMemory
 xml
-type SyntaxError
- Error
-type TagPathError
- Error
-type UnsupportedTypeError
- Error
-type UnmarshalError
- Error
-type CharData
- Copy
-type Comment
- Copy
-type Directive
- Copy
-type ProcInst
- Copy
-type Name
-type Attr
-type StartElement
- Copy
- End
-type EndElement
-type Token
-func CopyToken
-type Marshaler
-type Unmarshaler
-type MarshalerAttr
-type UnmarshalerAttr
-func Escape
-func EscapeText
-func Marshal
-func MarshalIndent
-func Unmarshal
-type Decoder
-func NewDecoder
- Decode
- DecodeElement
- Token
- RawToken
- Skip
-type Encoder
-func NewEncoder
- Encode
- EncodeElement
- EncodeToken
- Flush
- Indent
-
+SyntaxError
+Error
+TagPathError
+Error
+UnsupportedTypeError
+Error
+UnmarshalError
+Error
+CharData
+Copy
+Comment
+Copy
+Directive
+Copy
+ProcInst
+Copy
+Name
+Attr
+StartElement
+Copy
+End
+EndElement
+Token
+CopyToken
+Marshaler
+Unmarshaler
+MarshalerAttr
+UnmarshalerAttr
+Escape
+EscapeText
+Marshal
+MarshalIndent
+Unmarshal
+Decoder
+NewDecoder
+Decode
+DecodeElement
+Token
+RawToken
+Skip
+Encoder
+NewEncoder
+Encode
+EncodeElement
+EncodeToken
+Flush
+Indent
 errors
 package
 expvar
-type Int
-func NewInt
- Add
- Set
- String
-type Float
-func NewFloat
- Add
- Set
- String
-type String
-func NewString
- Set
- String
-type Func
- String
-type KeyValue
-type Map
-func NewMap
- Init
- Get
- Set
- Add
- AddFloat
- Do
- String
-func Get
-func Publish
-func Do
+Int
+NewInt
+Add
+Set
+String
+Float
+NewFloat
+Add
+Set
+String
+String
+NewString
+Set
+String
+Func
+String
+KeyValue
+Map
+NewMap
+Init
+Get
+Set
+Add
+AddFloat
+Do
+String
+Get
+Publish
+Do
 ast
-
 flag
-type Getter
-type ErrorHandling
-type Flag
-type FlagSet
-func NewFlagSet
- Init
- NFlag
- Lookup
- NArg
- Args
- Arg
- PrintDefaults
- SetOutput
- Bool
- BoolVar
- Int
- IntVar
- Int64
- Int64Var
- Uint
- UintVar
- Uint64
- Uint64Var
- Float64
- Float64Var
- String
- StringVar
- Duration
- DurationVar
- Var
- Set
- Parse
- Parsed
- Visit
- VisitAll
-func NFlag
-func Lookup
-func NArg
-func Args
-func Arg
-func PrintDefaults
-func Bool
-func BoolVar
-func Int
-func IntVar
-func Int64
-func Int64Var
-func Uint
-func UintVar
-func Uint64
-func Uint64Var
-func Float64
-func Float64Var
-func String
-func StringVar
-func Duration
-func DurationVar
-func Var
-func Set
-func Parse
-func Parsed
-func Visit
-func VisitAll
-
+Getter
+ErrorHandling
+Flag
+FlagSet
+NewFlagSet
+Init
+NFlag
+Lookup
+NArg
+Args
+Arg
+PrintDefaults
+SetOutput
+Bool
+BoolVar
+Int
+IntVar
+Int64
+Int64Var
+Uint
+UintVar
+Uint64
+Uint64Var
+Float64
+Float64Var
+String
+StringVar
+Duration
+DurationVar
+Var
+Set
+Parse
+Parsed
+Visit
+VisitAll
+NFlag
+Lookup
+NArg
+Args
+Arg
+PrintDefaults
+Bool
+BoolVar
+Int
+IntVar
+Int64
+Int64Var
+Uint
+UintVar
+Uint64
+Uint64Var
+Float64
+Float64Var
+String
+StringVar
+Duration
+DurationVar
+Var
+Set
+Parse
+Parsed
+Visit
+VisitAll
 fmt
-type GoStringer
-type State
-type Formatter
-type ScanState
-type Scanner
-func Printf
-func Fprintf
-func Sprintf
-func Print
-func Fprint
-func Sprint
-func Println
-func Fprintln
-func Sprintln
-func Errorf
-func Scanf
-func Fscanf
-func Sscanf
-func Scan
-func Fscan
-func Sscan
-func Scanln
-func Fscanln
-func Sscanln
-
+GoStringer
+State
+Formatter
+ScanState
+Scanner
+Printf
+Fprintf
+Sprintf
+Print
+Fprint
+Sprint
+Println
+Fprintln
+Sprintln
+Errorf
+Scanf
+Fscanf
+Sscanf
+Scan
+Fscan
+Sscan
+Scanln
+Fscanln
+Sscanln
 ast
-func FileExports
-func FilterDecl
-func FilterFile
-func FilterPackage
-func Fprint
-func Inspect
-func IsExported
-func NotNilFilter
-func PackageExports
-func Print
-func SortImports
-func Walk
-type ArrayType
- End
- Pos
-type AssignStmt
- End
- Pos
-type BadDecl
- End
- Pos
-type BadExpr
- End
- Pos
-type BadStmt
- End
- Pos
-type BasicLit
- End
- Pos
-type BinaryExpr
- End
- Pos
-type BlockStmt
- End
- Pos
-type BranchStmt
- End
- Pos
-type CallExpr
- End
- Pos
-type CaseClause
- End
- Pos
-type ChanDir
-type ChanType
- End
- Pos
-type CommClause
- End
- Pos
-type Comment
- End
- Pos
-type CommentGroup
- End
- Pos
- Text
-type CommentMap
-func NewCommentMap
- Comments
- Filter
- String
- Update
-type CompositeLit
- End
- Pos
-type Decl
-type DeclStmt
- End
- Pos
-type DeferStmt
- End
- Pos
-type Ellipsis
- End
- Pos
-type EmptyStmt
- End
- Pos
-type Expr
-type ExprStmt
- End
- Pos
-type Field
- End
- Pos
-type FieldFilter
-type FieldList
- End
- NumFields
- Pos
-type File
-func MergePackageFiles
- End
- Pos
-type Filter
-type ForStmt
- End
- Pos
-type FuncDecl
- End
- Pos
-type FuncLit
- End
- Pos
-type FuncType
- End
- Pos
-type GenDecl
- End
- Pos
-type GoStmt
- End
- Pos
-type Ident
-func NewIdent
- End
- IsExported
- Pos
- String
-type IfStmt
- End
- Pos
-type ImportSpec
- End
- Pos
-type Importer
-type IncDecStmt
- End
- Pos
-type IndexExpr
- End
- Pos
-type InterfaceType
- End
- Pos
-type KeyValueExpr
- End
- Pos
-type LabeledStmt
- End
- Pos
-type MapType
- End
- Pos
-type MergeMode
-type Node
-type ObjKind
- String
-type Object
-func NewObj
- Pos
-type Package
-func NewPackage
- End
- Pos
-type ParenExpr
- End
- Pos
-type RangeStmt
- End
- Pos
-type ReturnStmt
- End
- Pos
-type Scope
-func NewScope
- Insert
- Lookup
- String
-type SelectStmt
- End
- Pos
-type SelectorExpr
- End
- Pos
-type SendStmt
- End
- Pos
-type SliceExpr
- End
- Pos
-type Spec
-type StarExpr
- End
- Pos
-type Stmt
-type StructType
- End
- Pos
-type SwitchStmt
- End
- Pos
-type TypeAssertExpr
- End
- Pos
-type TypeSpec
- End
- Pos
-type TypeSwitchStmt
- End
- Pos
-type UnaryExpr
- End
- Pos
-type ValueSpec
- End
- Pos
-type Visitor
-func ArchChar
-func IsLocalImport
-type Context
- Import
- ImportDir
- MatchFile
- SrcDirs
-type ImportMode
-type MultiplePackageError
- Error
-type NoGoError
- Error
-type Package
-func Import
-func ImportDir
- IsCommand
+FileExports
+FilterDecl
+FilterFile
+FilterPackage
+Fprint
+Inspect
+IsExported
+NotNilFilter
+PackageExports
+Print
+SortImports
+Walk
+ArrayType
+End
+Pos
+AssignStmt
+End
+Pos
+BadDecl
+End
+Pos
+BadExpr
+End
+Pos
+BadStmt
+End
+Pos
+BasicLit
+End
+Pos
+BinaryExpr
+End
+Pos
+BlockStmt
+End
+Pos
+BranchStmt
+End
+Pos
+CallExpr
+End
+Pos
+CaseClause
+End
+Pos
+ChanDir
+ChanType
+End
+Pos
+CommClause
+End
+Pos
+Comment
+End
+Pos
+CommentGroup
+End
+Pos
+Text
+CommentMap
+NewCommentMap
+Comments
+Filter
+String
+Update
+CompositeLit
+End
+Pos
+Decl
+DeclStmt
+End
+Pos
+DeferStmt
+End
+Pos
+Ellipsis
+End
+Pos
+EmptyStmt
+End
+Pos
+Expr
+ExprStmt
+End
+Pos
+Field
+End
+Pos
+FieldFilter
+FieldList
+End
+NumFields
+Pos
+File
+MergePackageFiles
+End
+Pos
+Filter
+ForStmt
+End
+Pos
+FuncDecl
+End
+Pos
+FuncLit
+End
+Pos
+FuncType
+End
+Pos
+GenDecl
+End
+Pos
+GoStmt
+End
+Pos
+Ident
+NewIdent
+End
+IsExported
+Pos
+String
+IfStmt
+End
+Pos
+ImportSpec
+End
+Pos
+Importer
+IncDecStmt
+End
+Pos
+IndexExpr
+End
+Pos
+InterfaceType
+End
+Pos
+KeyValueExpr
+End
+Pos
+LabeledStmt
+End
+Pos
+MapType
+End
+Pos
+MergeMode
+Node
+ObjKind
+String
+Object
+NewObj
+Pos
+Package
+NewPackage
+End
+Pos
+ParenExpr
+End
+Pos
+RangeStmt
+End
+Pos
+ReturnStmt
+End
+Pos
+Scope
+NewScope
+Insert
+Lookup
+String
+SelectStmt
+End
+Pos
+SelectorExpr
+End
+Pos
+SendStmt
+End
+Pos
+SliceExpr
+End
+Pos
+Spec
+StarExpr
+End
+Pos
+Stmt
+StructType
+End
+Pos
+SwitchStmt
+End
+Pos
+TypeAssertExpr
+End
+Pos
+TypeSpec
+End
+Pos
+TypeSwitchStmt
+End
+Pos
+UnaryExpr
+End
+Pos
+ValueSpec
+End
+Pos
+Visitor
+ArchChar
+IsLocalImport
+Context
+Import
+ImportDir
+MatchFile
+SrcDirs
+ImportMode
+MultiplePackageError
+Error
+NoGoError
+Error
+Package
+Import
+ImportDir
+IsCommand
 build
 go/constant
-func BitLen
-func BoolVal
-func Bytes
-func Compare
-func Float32Val
-func Float64Val
-func Int64Val
-func Sign
-func StringVal
-func Uint64Val
-type Kind
-type Value
-func BinaryOp
-func Denom
-func Imag
-func MakeBool
-func MakeFloat64
-func MakeFromBytes
-func MakeFromLiteral
-func MakeImag
-func MakeInt64
-func MakeString
-func MakeUint64
-func MakeUnknown
-func Num
-func Real
-func Shift
-func ToComplex
-func ToFloat
-func ToInt
-func UnaryOp
+BitLen
+BoolVal
+Bytes
+Compare
+Float32Val
+Float64Val
+Int64Val
+Sign
+StringVal
+Uint64Val
+Kind
+Value
+BinaryOp
+Denom
+Imag
+MakeBool
+MakeFloat64
+MakeFromBytes
+MakeFromLiteral
+MakeImag
+MakeInt64
+MakeString
+MakeUint64
+MakeUnknown
+Num
+Real
+Shift
+ToComplex
+ToFloat
+ToInt
+UnaryOp
 go/doc
-func Examples
-func Synopsis
-func ToHTML
-func ToText
-type Example
-type Filter
-type Func
-type Mode
-type Note
-type Package
-func New
- Filter
+Examples
+Synopsis
+ToHTML
+ToText
+Example
+Filter
+Func
+Mode
+Note
+Package
+New
+Filter
 format
-func Node
-func Source
+Node
+Source
 importer
-func Default
-func For
-type Lookup
+Default
+For
+Lookup
 parser
-func ParseDir
-func ParseExpr
-func ParseFile
-type Mode
+ParseDir
+ParseExpr
+ParseFile
+Mode
 printer
-func Fprint
-type CommentedNode
-type Config
- Fprint
-
+Fprint
+CommentedNode
+Config
+Fprint
 scanner
-func PrintError
-type Error
- Error
-type ErrorHandler
-type ErrorList
- Add
- Err
- Error
- Len
- Less
- RemoveMultiples
- Reset
- Sort
- Swap
-type Mode
-type Scanner
- Init
- Scan
+PrintError
+Error
+Error
+ErrorHandler
+ErrorList
+Add
+Err
+Error
+Len
+Less
+RemoveMultiples
+Reset
+Sort
+Swap
+Mode
+Scanner
+Init
+Scan
 token
- AddLine
- AddLineInfo
- Base
- Line
- LineCount
- MergeLine
- Name
- Offset
- Pos
- Position
- PositionFor
- SetLines
- SetLinesForContent
- Size
-type FileSet
-func NewFileSet
- AddFile
- Base
- File
- Iterate
- Position
- PositionFor
- Read
- Write
-type Pos
- IsValid
-type Position
- IsValid
- String
-type Token
-func Lookup
- IsKeyword
- IsLiteral
- IsOperator
- Precedence
- String
+AddLine
+AddLineInfo
+Base
+Line
+LineCount
+MergeLine
+Name
+Offset
+Pos
+Position
+PositionFor
+SetLines
+SetLinesForContent
+Size
+FileSet
+NewFileSet
+AddFile
+Base
+File
+Iterate
+Position
+PositionFor
+Read
+Write
+Pos
+IsValid
+Position
+IsValid
+String
+Token
+Lookup
+IsKeyword
+IsLiteral
+IsOperator
+Precedence
+String
 types
-
-
-func AssertableTo
-func AssignableTo
-func Comparable
-func ConvertibleTo
-func DefPredeclaredTestFuncs
-func ExprString
-func Id
-func Identical
-func IdenticalIgnoreTags
-func Implements
-func IsInterface
-func ObjectString
-func SelectionString
-func TypeString
-func WriteExpr
-func WriteSignature
-func WriteType
-type Array
-func NewArray
- Elem
- Len
- String
- Underlying
-type Basic
- Info
- Kind
- Name
- String
- Underlying
-type BasicInfo
-type BasicKind
-type Builtin
- Exported
- Id
- Name
- Parent
- Pkg
- Pos
- String
- Type
-type Chan
-func NewChan
- Dir
- Elem
- String
- Underlying
-type ChanDir
-type Checker
-func NewChecker
- Files
-type Config
- Check
-type Const
-func NewConst
- Exported
- Id
- Name
- Parent
- Pkg
- Pos
- String
- Type
- Val
-type Error
- Error
-type Func
-func MissingMethod
-func NewFunc
- Exported
- FullName
- Id
- Name
- Parent
- Pkg
- Pos
- Scope
- String
- Type
-type ImportMode
-type Importer
-type ImporterFrom
-type Info
- ObjectOf
- TypeOf
-type Initializer
- String
-type Interface
-func NewInterface
- Complete
- Embedded
- Empty
- ExplicitMethod
- Method
- NumEmbeddeds
- NumExplicitMethods
- NumMethods
- String
- Underlying
-type Label
-func NewLabel
- Exported
- Id
- Name
- Parent
- Pkg
- Pos
- String
- Type
-type Map
-func NewMap
- Elem
- Key
- String
- Underlying
-type MethodSet
-func NewMethodSet
- At
- Len
- Lookup
- String
-type Named
-func NewNamed
- AddMethod
- Method
- NumMethods
- Obj
- SetUnderlying
- String
- Underlying
-type Nil
- Exported
- Id
- Name
- Parent
- Pkg
- Pos
- String
- Type
-type Object
-func LookupFieldOrMethod
-type Package
-func NewPackage
- Complete
- Imports
- MarkComplete
- Name
- Path
- Scope
- SetImports
- SetName
- String
-type PkgName
-func NewPkgName
- Exported
- Id
- Imported
- Name
- Parent
- Pkg
- Pos
- String
- Type
-type Pointer
-func NewPointer
- Elem
- String
- Underlying
-type Qualifier
-func RelativeTo
-type Scope
-func NewScope
- Child
- Contains
- End
- Innermost
- Insert
- Len
- Lookup
- LookupParent
- Names
- NumChildren
- Parent
- Pos
- String
- WriteTo
-type Selection
- Index
- Indirect
- Kind
- Obj
- Recv
- String
- Type
-type SelectionKind
-type Signature
-func NewSignature
- Params
- Recv
- Results
- String
- Underlying
- Variadic
-type Sizes
-type Slice
-func NewSlice
- Elem
- String
- Underlying
-type StdSizes
- Alignof
- Offsetsof
- Sizeof
-type Struct
-func NewStruct
- Field
- NumFields
- String
- Tag
- Underlying
-type Tuple
-func NewTuple
- At
- Len
- String
- Underlying
-type Type
-func Default
-type TypeAndValue
-func Eval
- Addressable
- Assignable
- HasOk
- IsBuiltin
- IsNil
- IsType
- IsValue
- IsVoid
-type TypeName
-func NewTypeName
- Exported
- Id
- Name
- Parent
- Pkg
- Pos
- String
- Type
-type Var
-func NewField
-func NewParam
-func NewVar
- Anonymous
- Exported
- Id
- IsField
- Name
- Parent
- Pkg
- Pos
- String
- Type
+AssertableTo
+AssignableTo
+Comparable
+ConvertibleTo
+DefPredeclaredTestFuncs
+ExprString
+Id
+Identical
+IdenticalIgnoreTags
+Implements
+IsInterface
+ObjectString
+SelectionString
+TypeString
+WriteExpr
+WriteSignature
+WriteType
+Array
+NewArray
+Elem
+Len
+String
+Underlying
+Basic
+Info
+Kind
+Name
+String
+Underlying
+BasicInfo
+BasicKind
+Builtin
+Exported
+Id
+Name
+Parent
+Pkg
+Pos
+String
+Type
+Chan
+NewChan
+Dir
+Elem
+String
+Underlying
+ChanDir
+Checker
+NewChecker
+Files
+Config
+Check
+Const
+NewConst
+Exported
+Id
+Name
+Parent
+Pkg
+Pos
+String
+Type
+Val
+Error
+Error
+Func
+MissingMethod
+NewFunc
+Exported
+FullName
+Id
+Name
+Parent
+Pkg
+Pos
+Scope
+String
+Type
+ImportMode
+Importer
+ImporterFrom
+Info
+ObjectOf
+TypeOf
+Initializer
+String
+Interface
+NewInterface
+Complete
+Embedded
+Empty
+ExplicitMethod
+Method
+NumEmbeddeds
+NumExplicitMethods
+NumMethods
+String
+Underlying
+Label
+NewLabel
+Exported
+Id
+Name
+Parent
+Pkg
+Pos
+String
+Type
+Map
+NewMap
+Elem
+Key
+String
+Underlying
+MethodSet
+NewMethodSet
+At
+Len
+Lookup
+String
+Named
+NewNamed
+AddMethod
+Method
+NumMethods
+Obj
+SetUnderlying
+String
+Underlying
+Nil
+Exported
+Id
+Name
+Parent
+Pkg
+Pos
+String
+Type
+Object
+LookupFieldOrMethod
+Package
+NewPackage
+Complete
+Imports
+MarkComplete
+Name
+Path
+Scope
+SetImports
+SetName
+String
+PkgName
+NewPkgName
+Exported
+Id
+Imported
+Name
+Parent
+Pkg
+Pos
+String
+Type
+Pointer
+NewPointer
+Elem
+String
+Underlying
+Qualifier
+RelativeTo
+Scope
+NewScope
+Child
+Contains
+End
+Innermost
+Insert
+Len
+Lookup
+LookupParent
+Names
+NumChildren
+Parent
+Pos
+String
+WriteTo
+Selection
+Index
+Indirect
+Kind
+Obj
+Recv
+String
+Type
+SelectionKind
+Signature
+NewSignature
+Params
+Recv
+Results
+String
+Underlying
+Variadic
+Sizes
+Slice
+NewSlice
+Elem
+String
+Underlying
+StdSizes
+Alignof
+Offsetsof
+Sizeof
+Struct
+NewStruct
+Field
+NumFields
+String
+Tag
+Underlying
+Tuple
+NewTuple
+At
+Len
+String
+Underlying
+Type
+Default
+TypeAndValue
+Eval
+Addressable
+Assignable
+HasOk
+IsBuiltin
+IsNil
+IsType
+IsValue
+IsVoid
+TypeName
+NewTypeName
+Exported
+Id
+Name
+Parent
+Pkg
+Pos
+String
+Type
+Var
+NewField
+NewParam
+NewVar
+Anonymous
+Exported
+Id
+IsField
+Name
+Parent
+Pkg
+Pos
+String
+Type
 hash
-type Hash
-type Hash32
-type Hash64
+Hash
+Hash32
+Hash64
 adler32
- Checksum
+Checksum
 crc32
-type Table
-func MakeTable
-func Checksum
-func ChecksumIEEE
-func Update
-func New
-func NewIEEE
+Table
+MakeTable
+Checksum
+ChecksumIEEE
+Update
+New
+NewIEEE
 crc64
-func MakeTable
-func Checksum
-func Update
-func New
+MakeTable
+Checksum
+Update
+New
 hash/fnv
-
-func New32
-func New32a
-func New64
-func New64a
-
+New32
+New32a
+New64
+New64a
 html
-func EscapeString
-func UnescapeString
+EscapeString
+UnescapeString
 template
-func HTMLEscape
-func HTMLEscapeString
-func HTMLEscaper
-func JSEscape
-func JSEscapeString
-func JSEscaper
-func URLQueryEscaper
-type FuncMap
-type HTML
-type HTMLAttr
-type JS
-type JSStr
-type CSS
-type URL
-type Template
-func Must
-func New
-func ParseFiles
-func ParseGlob
- Name
- Delims
- Funcs
- Clone
- Lookup
- Templates
- New
- AddParseTree
- Parse
- ParseFiles
- ParseGlob
- Execute
- ExecuteTemplate
-func Decode
-type PalettedImage
-type Config
-func DecodeConfig
-func RegisterFormat
-type Point
-func Pt
- Eq
- Add
- Sub
- Mul
- Div
- In
- Mod
- String
-type Rectangle
-func Rect
- Canon
- Dx
- Dy
- Size
- Empty
- Eq
- In
- Overlaps
- Add
- Sub
- Intersect
- Union
- Inset
- String
-type Uniform
-func NewUniform
- At
- Bounds
- ColorModel
- Convert
- Opaque
- RGBA
-type Alpha
-func NewAlpha
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetAlpha
- SubImage
-type Alpha16
-func NewAlpha16
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetAlpha16
- SubImage
-type Gray
-func NewGray
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetGray
- SubImage
-type Gray16
-func NewGray16
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetGray16
- SubImage
-type RGBA
-func NewRGBA
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetRGBA
- SubImage
-type RGBA64
-func NewRGBA64
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetRGBA64
- SubImage
-type NRGBA
-func NewNRGBA
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetNRGBA
- SubImage
-type NRGBA64
-func NewNRGBA64
- At
- Bounds
- ColorModel
- Opaque
- PixOffset
- Set
- SetNRGBA64
- SubImage
-type Paletted
-func NewPaletted
- At
- Bounds
- ColorIndexAt
- ColorModel
- Opaque
- PixOffset
- Set
- SetColorIndex
- SubImage
-type YCbCrSubsampleRatio
- String
-type YCbCr
-func NewYCbCr
- At
- Bounds
- COffset
- ColorModel
- Opaque
- SubImage
- YOffset
+HTMLEscape
+HTMLEscapeString
+HTMLEscaper
+JSEscape
+JSEscapeString
+JSEscaper
+URLQueryEscaper
+FuncMap
+HTML
+HTMLAttr
+JS
+JSStr
+CSS
+URL
+Template
+Must
+New
+ParseFiles
+ParseGlob
+Name
+Delims
+Funcs
+Clone
+Lookup
+Templates
+New
+AddParseTree
+Parse
+ParseFiles
+ParseGlob
+Execute
+ExecuteTemplate
+Decode
+PalettedImage
+Config
+DecodeConfig
+RegisterFormat
+Point
+Pt
+Eq
+Add
+Sub
+Mul
+Div
+In
+Mod
+String
+Rectangle
+Rect
+Canon
+Dx
+Dy
+Size
+Empty
+Eq
+In
+Overlaps
+Add
+Sub
+Intersect
+Union
+Inset
+String
+Uniform
+NewUniform
+At
+Bounds
+ColorModel
+Convert
+Opaque
+RGBA
+Alpha
+NewAlpha
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetAlpha
+SubImage
+Alpha16
+NewAlpha16
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetAlpha16
+SubImage
+Gray
+NewGray
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetGray
+SubImage
+Gray16
+NewGray16
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetGray16
+SubImage
+RGBA
+NewRGBA
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetRGBA
+SubImage
+RGBA64
+NewRGBA64
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetRGBA64
+SubImage
+NRGBA
+NewNRGBA
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetNRGBA
+SubImage
+NRGBA64
+NewNRGBA64
+At
+Bounds
+ColorModel
+Opaque
+PixOffset
+Set
+SetNRGBA64
+SubImage
+Paletted
+NewPaletted
+At
+Bounds
+ColorIndexAt
+ColorModel
+Opaque
+PixOffset
+Set
+SetColorIndex
+SubImage
+YCbCrSubsampleRatio
+String
+YCbCr
+NewYCbCr
+At
+Bounds
+COffset
+ColorModel
+Opaque
+SubImage
+YOffset
 color
-type Model
-func ModelFunc
-type Alpha
- RGBA
-type Alpha16
- RGBA
-type Gray
- RGBA
-type Gray16
- RGBA
-type RGBA
- RGBA
-type RGBA64
- RGBA
-type NRGBA
- RGBA
-type NRGBA64
- RGBA
-type YCbCr
- RGBA
-type Palette
- Convert
- Index
-func RGBToYCbCr
-func YCbCrToRGB
+Model
+ModelFunc
+Alpha
+RGBA
+Alpha16
+RGBA
+Gray
+RGBA
+Gray16
+RGBA
+RGBA
+RGBA
+RGBA64
+RGBA
+NRGBA
+RGBA
+NRGBA64
+RGBA
+YCbCr
+RGBA
+Palette
+Convert
+Index
+RGBToYCbCr
+YCbCrToRGB
 palette
 draw
-type Image
-type Drawer
-type Op
- Draw
-func Draw
-func DrawMask
+Image
+Drawer
+Op
+Draw
+Draw
+DrawMask
 gif
-func Decode
-func DecodeConfig
-func Encode
-type GIF
-func DecodeAll
-func EncodeAll
+Decode
+DecodeConfig
+Encode
+GIF
+DecodeAll
+EncodeAll
 jpeg
-type FormatError
- Error
-type UnsupportedError
- Error
-type Options
-func Decode
-func DecodeConfig
-func Encode
+FormatError
+Error
+UnsupportedError
+Error
+Options
+Decode
+DecodeConfig
+Encode
 png
-type UnsupportedError
- Error
-func Decode
-func DecodeConfig
-func Encode
+UnsupportedError
+Error
+Decode
+DecodeConfig
+Encode
 index
 suffixarray
-
- FindAllIndex
+FindAllIndex
 io
-type Reader
-type Writer
-type Closer
-type Seeker
-type ReadCloser
-type ReadSeeker
-type WriteCloser
-type WriteSeeker
-type ReadWriter
-type ReadWriteCloser
-type ReadWriteSeeker
-type ReaderAt
-type WriterAt
-type ByteReader
-type ByteScanner
-type RuneReader
-type RuneScanner
-type ByteWriter
-type ReaderFrom
-type WriterTo
-type LimitedReader
-func LimitReader
- Read
-type SectionReader
-func NewSectionReader
- Size
- Read
- ReadAt
- Seek
-type PipeReader
-func Pipe
- Read
- Close
- CloseWithError
-type PipeWriter
- Write
- Close
- CloseWithError
-func TeeReader
-func MultiReader
-func MultiWriter
-func Copy
-func CopyN
-func ReadAtLeast
-func ReadFull
-func WriteString
+Reader
+Writer
+Closer
+Seeker
+ReadCloser
+ReadSeeker
+WriteCloser
+WriteSeeker
+ReadWriter
+ReadWriteCloser
+ReadWriteSeeker
+ReaderAt
+WriterAt
+ByteReader
+ByteScanner
+RuneReader
+RuneScanner
+ByteWriter
+ReaderFrom
+WriterTo
+LimitedReader
+LimitReader
+Read
+SectionReader
+NewSectionReader
+Size
+Read
+ReadAt
+Seek
+PipeReader
+Pipe
+Read
+Close
+CloseWithError
+PipeWriter
+Write
+Close
+CloseWithError
+TeeReader
+MultiReader
+MultiWriter
+Copy
+CopyN
+ReadAtLeast
+ReadFull
+WriteString
 ioutil
-func NopCloser
-func ReadAll
-func ReadFile
-func WriteFile
-func ReadDir
-func TempDir
-func TempFile
+NopCloser
+ReadAll
+ReadFile
+WriteFile
+ReadDir
+TempDir
+TempFile
 log
-type Logger
-func New
- Flags
- SetFlags
- Prefix
- SetPrefix
- Output
- Printf
- Print
- Println
- Fatalf
- Fatal
- Fatalln
- Panic
- Panicf
- Panicln
-func Flags
-func SetFlags
-func Prefix
-func SetPrefix
-func SetOutput
-func Printf
-func Print
-func Println
-func Fatalf
-func Fatal
-func Fatalln
-func Panicf
-func Panic
-func Panicln
+Logger
+New
+Flags
+SetFlags
+Prefix
+SetPrefix
+Output
+Printf
+Print
+Println
+Fatalf
+Fatal
+Fatalln
+Panic
+Panicf
+Panicln
+Flags
+SetFlags
+Prefix
+SetPrefix
+SetOutput
+Printf
+Print
+Println
+Fatalf
+Fatal
+Fatalln
+Panicf
+Panic
+Panicln
 syslog
-func NewLogger
-func Dial
-func New
- Alert
- Close
- Crit
- Debug
- Emerg
- Err
- Info
- Notice
- Warning
- Write
+NewLogger
+Dial
+New
+Alert
+Close
+Crit
+Debug
+Emerg
+Err
+Info
+Notice
+Warning
+Write
 math
-
-func NaN
-func IsNaN
-func Inf
-func IsInf
-func Float32bits
-func Float32frombits
-func Float64bits
-func Float64frombits
-func Signbit
-func Copysign
-func Ceil
-func Floor
-func Trunc
-func Modf
-func Nextafter
-func Abs
-func Max
-func Min
-func Dim
-func Mod
-func Remainder
-func Sqrt
-func Cbrt
-func Hypot
-func Sin
-func Cos
-func Tan
-func Sincos
-func Asin
-func Acos
-func Atan
-func Atan2
-func Sinh
-func Cosh
-func Tanh
-func Asinh
-func Acosh
-func Atanh
-func Log
-func Log1p
-func Log2
-func Log10
-func Logb
-func Ilogb
-func Frexp
-func Ldexp
-func Exp
-func Expm1
-func Exp2
-func Pow
-func Pow10
-func Gamma
-func Lgamma
-func Erf
-func Erfc
-func J0
-func J1
-func Jn
-func Y0
-func Y1
-func Yn
+NaN
+IsNaN
+Inf
+IsInf
+Float32bits
+Float32frombits
+Float64bits
+Float64frombits
+Signbit
+Copysign
+Ceil
+Floor
+Trunc
+Modf
+Nextafter
+Abs
+Max
+Min
+Dim
+Mod
+Remainder
+Sqrt
+Cbrt
+Hypot
+Sin
+Cos
+Tan
+Sincos
+Asin
+Acos
+Atan
+Atan2
+Sinh
+Cosh
+Tanh
+Asinh
+Acosh
+Atanh
+Log
+Log1p
+Log2
+Log10
+Logb
+Ilogb
+Frexp
+Ldexp
+Exp
+Expm1
+Exp2
+Pow
+Pow10
+Gamma
+Lgamma
+Erf
+Erfc
+J0
+J1
+Jn
+Y0
+Y1
+Yn
 big
-func NewInt
- Int64
- Uint64
- Bytes
- String
- BitLen
- Bits
- Bit
- SetInt64
- SetUint64
- SetBytes
- SetString
- SetBits
- SetBit
- MulRange
- Binomial
- Rand
- ProbablyPrime
- Sign
- Cmp
- Not
- And
- Or
- Xor
- AndNot
- Lsh
- Rsh
- Abs
- Neg
- Set
- Add
- Sub
- Mul
- Div
- Mod
- DivMod
- Quo
- Rem
- QuoRem
- ModInverse
- Exp
- GCD
- Format
- Scan
- GobEncode
- GobDecode
- MarshalJSON
- UnmarshalJSON
- MarshalText
- UnmarshalText
-type Rat
-func NewRat
- Num
- Denom
- Float64
- RatString
- FloatString
- String
- IsInt
- SetInt64
- SetFrac64
- SetFloat64
- SetInt
- SetFrac
- SetString
- Sign
- Cmp
- Abs
- Neg
- Inv
- Set
- Add
- Sub
- Mul
- Quo
- Scan
- GobEncode
- GobDecode
- MarshalText
- UnmarshalText
-
+NewInt
+Int64
+Uint64
+Bytes
+String
+BitLen
+Bits
+Bit
+SetInt64
+SetUint64
+SetBytes
+SetString
+SetBits
+SetBit
+MulRange
+Binomial
+Rand
+ProbablyPrime
+Sign
+Cmp
+Not
+And
+Or
+Xor
+AndNot
+Lsh
+Rsh
+Abs
+Neg
+Set
+Add
+Sub
+Mul
+Div
+Mod
+DivMod
+Quo
+Rem
+QuoRem
+ModInverse
+Exp
+GCD
+Format
+Scan
+GobEncode
+GobDecode
+MarshalJSON
+UnmarshalJSON
+MarshalText
+UnmarshalText
+Rat
+NewRat
+Num
+Denom
+Float64
+RatString
+FloatString
+String
+IsInt
+SetInt64
+SetFrac64
+SetFloat64
+SetInt
+SetFrac
+SetString
+Sign
+Cmp
+Abs
+Neg
+Inv
+Set
+Add
+Sub
+Mul
+Quo
+Scan
+GobEncode
+GobDecode
+MarshalText
+UnmarshalText
 cmplx
-func NaN
-func IsNaN
-func Inf
-func IsInf
-func Abs
-func Phase
-func Polar
-func Rect
-func Conj
-func Sqrt
-func Log
-func Log10
-func Exp
-func Pow
-func Sin
-func Cos
-func Tan
-func Cot
-func Asin
-func Acos
-func Atan
-func Sinh
-func Cosh
-func Tanh
-func Asinh
-func Acosh
-func Atanh
+NaN
+IsNaN
+Inf
+IsInf
+Abs
+Phase
+Polar
+Rect
+Conj
+Sqrt
+Log
+Log10
+Exp
+Pow
+Sin
+Cos
+Tan
+Cot
+Asin
+Acos
+Atan
+Sinh
+Cosh
+Tanh
+Asinh
+Acosh
+Atanh
 rand
-func NewSource
-type Rand
-func New
- Seed
- Int
- Int31
- Int63
- Uint32
- Intn
- Int31n
- Int63n
- Float32
- Float64
- NormFloat64
- ExpFloat64
- Perm
-type Zipf
-func NewZipf
- Uint64
-func Seed
-func Int
-func Int31
-func Int63
-func Uint32
-func Intn
-func Int31n
-func Int63n
-func Float32
-func Float64
-func NormFloat64
-func ExpFloat64
-func Perm
-
-
-mime
-func AddExtensionType
-func FormatMediaType
-func ParseMediaType
-func TypeByExtension
+NewSource
+Rand
+New
+Seed
+Int
+Int31
+Int63
+Uint32
+Intn
+Int31n
+Int63n
+Float32
+Float64
+NormFloat64
+ExpFloat64
+Perm
+Zipf
+NewZipf
+Uint64
+Seed
+Int
+Int31
+Int63
+Uint32
+Intn
+Int31n
+Int63n
+Float32
+Float64
+NormFloat64
+ExpFloat64
+Perm
+AddExtensionType
+FormatMediaType
+ParseMediaType
+TypeByExtension
 multipart
-type FileHeader
- Open
-type Part
- FileName
- FormName
- Read
- Close
-type Form
- RemoveAll
-type Reader
-func NewReader
- ReadForm
- NextPart
-type Writer
-func NewWriter
- FormDataContentType
- Boundary
- SetBoundary
- CreatePart
- CreateFormField
- CreateFormFile
- WriteField
- Close
+FileHeader
+Open
+Part
+FileName
+FormName
+Read
+Close
+Form
+RemoveAll
+Reader
+NewReader
+ReadForm
+NextPart
+Writer
+NewWriter
+FormDataContentType
+Boundary
+SetBoundary
+CreatePart
+CreateFormField
+CreateFormFile
+WriteField
+Close
 quotedprintable
-
 net
-type ParseError
- Error
-type Error
-type InvalidAddrError
- Error
- Temporary
- Timeout
-type UnknownNetworkError
- Error
- Temporary
- Timeout
-type DNSConfigError
- Error
- Temporary
- Timeout
-type DNSError
- Error
- Temporary
- Timeout
-type AddrError
- Error
- Temporary
- Timeout
-type OpError
- Error
- Temporary
- Timeout
-func SplitHostPort
-func JoinHostPort
-type HardwareAddr
-func ParseMAC
- String
-type Flags
- String
-type Interface
-func InterfaceByIndex
-func InterfaceByName
- Addrs
- MulticastAddrs
-func Interfaces
-func InterfaceAddrs
-type IP
-func IPv4
-func ParseIP
- IsGlobalUnicast
- IsLinkLocalUnicast
- IsInterfaceLocalMulticast
- IsLinkLocalMulticast
- IsMulticast
- IsLoopback
- IsUnspecified
- DefaultMask
- Equal
- To16
- To4
- Mask
- String
- MarshalText
- UnmarshalText
-type IPMask
-func IPv4Mask
-func CIDRMask
- Size
- String
-type IPNet
-func ParseCIDR
- Contains
- Network
- String
-type Addr
-type Conn
-func Dial
-func DialTimeout
-func Pipe
-type PacketConn
-func ListenPacket
-type Dialer
- Dial
-type Listener
-func Listen
-type IPAddr
-func ResolveIPAddr
- Network
- String
-type TCPAddr
-func ResolveTCPAddr
- Network
- String
-type UDPAddr
-func ResolveUDPAddr
- Network
- String
-type UnixAddr
-func ResolveUnixAddr
- Network
- String
-type IPConn
-func DialIP
-func ListenIP
- LocalAddr
- RemoteAddr
- SetReadBuffer
- SetWriteBuffer
- SetDeadline
- SetReadDeadline
- SetWriteDeadline
- Read
- ReadFrom
- ReadFromIP
- ReadMsgIP
- Write
- WriteTo
- WriteToIP
- WriteMsgIP
- Close
- File
-type TCPConn
-func DialTCP
- LocalAddr
- RemoteAddr
- SetReadBuffer
- SetWriteBuffer
- SetDeadline
- SetReadDeadline
- SetWriteDeadline
- SetKeepAlive
- SetKeepAlivePeriod
- SetLinger
- SetNoDelay
- Read
- ReadFrom
- Write
- Close
- CloseRead
- CloseWrite
- File
-type UDPConn
-func DialUDP
-func ListenMulticastUDP
-func ListenUDP
- LocalAddr
- RemoteAddr
- SetReadBuffer
- SetWriteBuffer
- SetDeadline
- SetReadDeadline
- SetWriteDeadline
- Read
- ReadFrom
- ReadFromUDP
- ReadMsgUDP
- Write
- WriteTo
- WriteToUDP
- WriteMsgUDP
- Close
- File
-type UnixConn
-func DialUnix
-func ListenUnixgram
- LocalAddr
- RemoteAddr
- SetReadBuffer
- SetWriteBuffer
- SetDeadline
- SetReadDeadline
- SetWriteDeadline
- Read
- ReadFrom
- ReadFromUnix
- ReadMsgUnix
- Write
- WriteTo
- WriteToUnix
- WriteMsgUnix
- Close
- CloseRead
- CloseWrite
- File
-type TCPListener
-func ListenTCP
- Addr
- SetDeadline
- Accept
- AcceptTCP
- Close
- File
-type UnixListener
-func ListenUnix
- Addr
- SetDeadline
- Accept
- AcceptUnix
- Close
- File
-func FileConn
-func FilePacketConn
-func FileListener
-type MX
-type NS
-type SRV
-func LookupPort
-func LookupCNAME
-func LookupHost
-func LookupIP
-func LookupAddr
-func LookupMX
-func LookupNS
-func LookupSRV
-func LookupTXT
-type ProtocolError
- Error
-func CanonicalHeaderKey
-func DetectContentType
-func ParseHTTPVersion
-func ParseTime
-func StatusText
-type ConnState
- String
-type Header
- Get
- Set
- Add
- Del
- Write
- WriteSubset
-type Cookie
- String
-type CookieJar
-type Request
-func NewRequest
-func ReadRequest
- ProtoAtLeast
- UserAgent
- Referer
- AddCookie
- SetBasicAuth
- Write
- WriteProxy
- Cookies
- Cookie
- ParseForm
- ParseMultipartForm
- FormValue
- PostFormValue
- FormFile
- MultipartReader
-type Response
-func ReadResponse
- ProtoAtLeast
- Cookies
- Location
- Write
-type ResponseWriter
-type Flusher
-type CloseNotifier
-type Hijacker
-type RoundTripper
-type Transport
- RegisterProtocol
- RoundTrip
- CloseIdleConnections
- CancelRequest
-type Client
- Do
- Head
- Get
- Post
- PostForm
-type Handler
-func NotFoundHandler
-func RedirectHandler
-func TimeoutHandler
-func StripPrefix
-type HandlerFunc
- ServeHTTP
-type ServeMux
-func NewServeMux
- Handle
- HandleFunc
- Handler
- ServeHTTP
-type Server
- SetKeepAlivesEnabled
- Serve
- ListenAndServe
- ListenAndServeTLS
-type File
-type FileSystem
-type Dir
- Open
-func NewFileTransport
-func FileServer
-func SetCookie
-func Redirect
-func NotFound
-func Error
-func ServeContent
-func ServeFile
-func MaxBytesReader
-func ProxyURL
-func ProxyFromEnvironment
-func Head
-func Get
-func Post
-func PostForm
-func Handle
-func HandleFunc
-func Serve
-func ListenAndServe
-func ListenAndServeTLS
+ParseError
+Error
+Error
+InvalidAddrError
+Error
+Temporary
+Timeout
+UnknownNetworkError
+Error
+Temporary
+Timeout
+DNSConfigError
+Error
+Temporary
+Timeout
+DNSError
+Error
+Temporary
+Timeout
+AddrError
+Error
+Temporary
+Timeout
+OpError
+Error
+Temporary
+Timeout
+SplitHostPort
+JoinHostPort
+HardwareAddr
+ParseMAC
+String
+Flags
+String
+Interface
+InterfaceByIndex
+InterfaceByName
+Addrs
+MulticastAddrs
+Interfaces
+InterfaceAddrs
+IP
+IPv4
+ParseIP
+IsGlobalUnicast
+IsLinkLocalUnicast
+IsInterfaceLocalMulticast
+IsLinkLocalMulticast
+IsMulticast
+IsLoopback
+IsUnspecified
+DefaultMask
+Equal
+To16
+To4
+Mask
+String
+MarshalText
+UnmarshalText
+IPMask
+IPv4Mask
+CIDRMask
+Size
+String
+IPNet
+ParseCIDR
+Contains
+Network
+String
+Addr
+Conn
+Dial
+DialTimeout
+Pipe
+PacketConn
+ListenPacket
+Dialer
+Dial
+Listener
+Listen
+IPAddr
+ResolveIPAddr
+Network
+String
+TCPAddr
+ResolveTCPAddr
+Network
+String
+UDPAddr
+ResolveUDPAddr
+Network
+String
+UnixAddr
+ResolveUnixAddr
+Network
+String
+IPConn
+DialIP
+ListenIP
+LocalAddr
+RemoteAddr
+SetReadBuffer
+SetWriteBuffer
+SetDeadline
+SetReadDeadline
+SetWriteDeadline
+Read
+ReadFrom
+ReadFromIP
+ReadMsgIP
+Write
+WriteTo
+WriteToIP
+WriteMsgIP
+Close
+File
+TCPConn
+DialTCP
+LocalAddr
+RemoteAddr
+SetReadBuffer
+SetWriteBuffer
+SetDeadline
+SetReadDeadline
+SetWriteDeadline
+SetKeepAlive
+SetKeepAlivePeriod
+SetLinger
+SetNoDelay
+Read
+ReadFrom
+Write
+Close
+CloseRead
+CloseWrite
+File
+UDPConn
+DialUDP
+ListenMulticastUDP
+ListenUDP
+LocalAddr
+RemoteAddr
+SetReadBuffer
+SetWriteBuffer
+SetDeadline
+SetReadDeadline
+SetWriteDeadline
+Read
+ReadFrom
+ReadFromUDP
+ReadMsgUDP
+Write
+WriteTo
+WriteToUDP
+WriteMsgUDP
+Close
+File
+UnixConn
+DialUnix
+ListenUnixgram
+LocalAddr
+RemoteAddr
+SetReadBuffer
+SetWriteBuffer
+SetDeadline
+SetReadDeadline
+SetWriteDeadline
+Read
+ReadFrom
+ReadFromUnix
+ReadMsgUnix
+Write
+WriteTo
+WriteToUnix
+WriteMsgUnix
+Close
+CloseRead
+CloseWrite
+File
+TCPListener
+ListenTCP
+Addr
+SetDeadline
+Accept
+AcceptTCP
+Close
+File
+UnixListener
+ListenUnix
+Addr
+SetDeadline
+Accept
+AcceptUnix
+Close
+File
+FileConn
+FilePacketConn
+FileListener
+MX
+NS
+SRV
+LookupPort
+LookupCNAME
+LookupHost
+LookupIP
+LookupAddr
+LookupMX
+LookupNS
+LookupSRV
+LookupTXT
+ProtocolError
+Error
+CanonicalHeaderKey
+DetectContentType
+ParseHTTPVersion
+ParseTime
+StatusText
+ConnState
+String
+Header
+Get
+Set
+Add
+Del
+Write
+WriteSubset
+Cookie
+String
+CookieJar
+Request
+NewRequest
+ReadRequest
+ProtoAtLeast
+UserAgent
+Referer
+AddCookie
+SetBasicAuth
+Write
+WriteProxy
+Cookies
+Cookie
+ParseForm
+ParseMultipartForm
+FormValue
+PostFormValue
+FormFile
+MultipartReader
+Response
+ReadResponse
+ProtoAtLeast
+Cookies
+Location
+Write
+ResponseWriter
+Flusher
+CloseNotifier
+Hijacker
+RoundTripper
+Transport
+RegisterProtocol
+RoundTrip
+CloseIdleConnections
+CancelRequest
+Client
+Do
+Head
+Get
+Post
+PostForm
+Handler
+NotFoundHandler
+RedirectHandler
+TimeoutHandler
+StripPrefix
+HandlerFunc
+ServeHTTP
+ServeMux
+NewServeMux
+Handle
+HandleFunc
+Handler
+ServeHTTP
+Server
+SetKeepAlivesEnabled
+Serve
+ListenAndServe
+ListenAndServeTLS
+File
+FileSystem
+Dir
+Open
+NewFileTransport
+FileServer
+SetCookie
+Redirect
+NotFound
+Error
+ServeContent
+ServeFile
+MaxBytesReader
+ProxyURL
+ProxyFromEnvironment
+Head
+Get
+Post
+PostForm
+Handle
+HandleFunc
+Serve
+ListenAndServe
+ListenAndServeTLS
 http
-func Request
-func RequestFromMap
-func Serve
-type Handler
- ServeHTTP
+Request
+RequestFromMap
+Serve
+Handler
+ServeHTTP
 cgi
 cookiejar
-type Jar
-func New
- Cookies
- SetCookies
+Jar
+New
+Cookies
+SetCookies
 PublicSuffixList
-func NewRequest
-type ResponseRecorder
-func NewRecorder
- Flush
- Header
- Result
- Write
- WriteHeader
- WriteString
-type Server
-func NewServer
-func NewTLSServer
-func NewUnstartedServer
- Certificate
- Client
- Close
- CloseClientConnections
- Start
- StartTLS
+NewRequest
+ResponseRecorder
+NewRecorder
+Flush
+Header
+Result
+Write
+WriteHeader
+WriteString
+Server
+NewServer
+NewTLSServer
+NewUnstartedServer
+Certificate
+Client
+Close
+CloseClientConnections
+Start
+StartTLS
 httptest
 httptrace
-func WithClientTrace
-type ClientTrace
-func ContextClientTrace
-type DNSDoneInfo
-type DNSStartInfo
-type GotConnInfo
-type WroteRequestInfo
+WithClientTrace
+ClientTrace
+ContextClientTrace
+DNSDoneInfo
+DNSStartInfo
+GotConnInfo
+WroteRequestInfo
 httputil
-func DumpRequest
-func DumpRequestOut
-func DumpResponse
-func NewChunkedReader
-func NewChunkedWriter
-type ClientConn
-func NewClientConn
-func NewProxyClientConn
- Pending
- Write
- Read
- Do
- Hijack
- Close
-type ServerConn
-func NewServerConn
- Pending
- Read
- Write
- Hijack
- Close
-type ReverseProxy
-func NewSingleHostReverseProxy
- ServeHTTP
-
+DumpRequest
+DumpRequestOut
+DumpResponse
+NewChunkedReader
+NewChunkedWriter
+ClientConn
+NewClientConn
+NewProxyClientConn
+Pending
+Write
+Read
+Do
+Hijack
+Close
+ServerConn
+NewServerConn
+Pending
+Read
+Write
+Hijack
+Close
+ReverseProxy
+NewSingleHostReverseProxy
+ServeHTTP
 pprof
-func Handler
-func Cmdline
-func Index
-func Profile
-func Symbol
+Handler
+Cmdline
+Index
+Profile
+Symbol
 mail
-
-type Address
-func ParseAddress
- String
-func ParseAddressList
-type Header
- AddressList
- Date
- Get
-type Message
-func ReadMessage
+Address
+ParseAddress
+String
+ParseAddressList
+Header
+AddressList
+Date
+Get
+Message
+ReadMessage
 rpc
-type ServerError
- Error
-type Request
-type Response
-type ClientCodec
-type ServerCodec
-type Call
-type Client
-func NewClient
-func NewClientWithCodec
-func Dial
-func DialHTTP
-func DialHTTPPath
- Call
- Go
- Close
-type Server
-func NewServer
- Register
- RegisterName
- Accept
- ServeConn
- ServeCodec
- ServeRequest
- ServeHTTP
- HandleHTTP
-func Register
-func RegisterName
-func Accept
-func ServeConn
-func ServeCodec
-func ServeRequest
-func HandleHTTP
+ServerError
+Error
+Request
+Response
+ClientCodec
+ServerCodec
+Call
+Client
+NewClient
+NewClientWithCodec
+Dial
+DialHTTP
+DialHTTPPath
+Call
+Go
+Close
+Server
+NewServer
+Register
+RegisterName
+Accept
+ServeConn
+ServeCodec
+ServeRequest
+ServeHTTP
+HandleHTTP
+Register
+RegisterName
+Accept
+ServeConn
+ServeCodec
+ServeRequest
+HandleHTTP
 jsonrpc
-func Dial
-func NewClient
-func NewClientCodec
-func NewServerCodec
-func ServeConn
-
+Dial
+NewClient
+NewClientCodec
+NewServerCodec
+ServeConn
 smtp
-type ServerInfo
-type Auth
-func CRAMMD5Auth
-func PlainAuth
-type Client
-func Dial
-func NewClient
- Extension
- Hello
- Auth
- Verify
- StartTLS
- Mail
- Rcpt
- Data
- Reset
- Quit
- Close
-func SendMail
+ServerInfo
+Auth
+CRAMMD5Auth
+PlainAuth
+Client
+Dial
+NewClient
+Extension
+Hello
+Auth
+Verify
+StartTLS
+Mail
+Rcpt
+Data
+Reset
+Quit
+Close
+SendMail
 textproto
-
-type ProtocolError
- Error
-type Error
- Error
-func CanonicalMIMEHeaderKey
-func TrimBytes
-func TrimString
-type MIMEHeader
- Get
- Set
- Add
- Del
-type Reader
-func NewReader
- DotReader
- ReadLine
- ReadLineBytes
- ReadContinuedLine
- ReadContinuedLineBytes
- ReadDotBytes
- ReadDotLines
- ReadCodeLine
- ReadResponse
- ReadMIMEHeader
-type Writer
-func NewWriter
- DotWriter
- PrintfLine
-type Pipeline
- Next
- StartRequest
- StartResponse
- EndRequest
- EndResponse
-type Conn
-func NewConn
-func Dial
- Cmd
- Close
+ProtocolError
+Error
+Error
+Error
+CanonicalMIMEHeaderKey
+TrimBytes
+TrimString
+MIMEHeader
+Get
+Set
+Add
+Del
+Reader
+NewReader
+DotReader
+ReadLine
+ReadLineBytes
+ReadContinuedLine
+ReadContinuedLineBytes
+ReadDotBytes
+ReadDotLines
+ReadCodeLine
+ReadResponse
+ReadMIMEHeader
+Writer
+NewWriter
+DotWriter
+PrintfLine
+Pipeline
+Next
+StartRequest
+StartResponse
+EndRequest
+EndResponse
+Conn
+NewConn
+Dial
+Cmd
+Close
 url
-func QueryEscape
-func QueryUnescape
-type Error
- Error
-type EscapeError
- Error
-type URL
-func Parse
-func ParseRequestURI
- IsAbs
- Query
- RequestURI
- String
- Parse
- ResolveReference
-type Userinfo
-func User
-func UserPassword
- Username
- Password
- String
-type Values
-func ParseQuery
- Get
- Set
- Add
- Del
- Encode
-func Hostname
-func Getpagesize
-func Environ
-func Getenv
-func Setenv
-func Clearenv
-func Exit
-func Expand
-func ExpandEnv
-func Getuid
-func Geteuid
-func Getgid
-func Getegid
-func Getgroups
-func Getpid
-func Getppid
-type Signal
-type PathError
- Error
-type LinkError
- Error
-type SyscallError
- Error
-func NewSyscallError
-type FileMode
- IsDir
- IsRegular
- Perm
- String
-type FileInfo
-func Stat
-func Lstat
-func IsPathSeparator
-func IsExist
-func IsNotExist
-func IsPermission
-func Getwd
-func Chdir
-func Chmod
-func Chown
-func Lchown
-func Chtimes
-func Mkdir
-func MkdirAll
-func Rename
-func Truncate
-func Remove
-func RemoveAll
-func Readlink
-func Symlink
-func Link
-func SameFile
-func TempDir
-type File
-func Create
-func Open
-func OpenFile
-func NewFile
-func Pipe
- Name
- Stat
- Fd
- Chdir
- Chmod
- Chown
- Readdir
- Readdirnames
- Truncate
- Read
- ReadAt
- Write
- WriteString
- WriteAt
- Seek
- Sync
- Close
-type ProcAttr
-type Process
-func FindProcess
-func StartProcess
- Signal
- Kill
- Wait
- Release
-type ProcessState
- Pid
- Exited
- Success
- SystemTime
- UserTime
- Sys
- SysUsage
- String
+QueryEscape
+QueryUnescape
+Error
+Error
+EscapeError
+Error
+URL
+Parse
+ParseRequestURI
+IsAbs
+Query
+RequestURI
+String
+Parse
+ResolveReference
+Userinfo
+User
+UserPassword
+Username
+Password
+String
+Values
+ParseQuery
+Get
+Set
+Add
+Del
+Encode
+Hostname
+Getpagesize
+Environ
+Getenv
+Setenv
+Clearenv
+Exit
+Expand
+ExpandEnv
+Getuid
+Geteuid
+Getgid
+Getegid
+Getgroups
+Getpid
+Getppid
+Signal
+PathError
+Error
+LinkError
+Error
+SyscallError
+Error
+NewSyscallError
+FileMode
+IsDir
+IsRegular
+Perm
+String
+FileInfo
+Stat
+Lstat
+IsPathSeparator
+IsExist
+IsNotExist
+IsPermission
+Getwd
+Chdir
+Chmod
+Chown
+Lchown
+Chtimes
+Mkdir
+MkdirAll
+Rename
+Truncate
+Remove
+RemoveAll
+Readlink
+Symlink
+Link
+SameFile
+TempDir
+File
+Create
+Open
+OpenFile
+NewFile
+Pipe
+Name
+Stat
+Fd
+Chdir
+Chmod
+Chown
+Readdir
+Readdirnames
+Truncate
+Read
+ReadAt
+Write
+WriteString
+WriteAt
+Seek
+Sync
+Close
+ProcAttr
+Process
+FindProcess
+StartProcess
+Signal
+Kill
+Wait
+Release
+ProcessState
+Pid
+Exited
+Success
+SystemTime
+UserTime
+Sys
+SysUsage
+String
 os
 exec
-type Error
- Error
-type ExitError
- Error
-func LookPath
-type Cmd
-func Command
- StdinPipe
- StdoutPipe
- StderrPipe
- Run
- Start
- Wait
- Output
- CombinedOutput
+Error
+Error
+ExitError
+Error
+LookPath
+Cmd
+Command
+StdinPipe
+StdoutPipe
+StderrPipe
+Run
+Start
+Wait
+Output
+CombinedOutput
 signal
-func Notify
-func Stop
+Notify
+Stop
 user
-type UnknownUserError
- Error
-type UnknownUserIdError
- Error
-type User
-func Current
-func Lookup
-func LookupId
+UnknownUserError
+Error
+UnknownUserIdError
+Error
+User
+Current
+Lookup
+LookupId
 path
-func IsAbs
-func Split
-func Join
-func Dir
-func Base
-func Ext
-func Clean
-func Match
-
+IsAbs
+Split
+Join
+Dir
+Base
+Ext
+Clean
+Match
 filepath
-
-func IsAbs
-func Abs
-func Rel
-func SplitList
-func Split
-func Join
-func FromSlash
-func ToSlash
-func VolumeName
-func Dir
-func Base
-func Ext
-func Clean
-func EvalSymlinks
-func Match
-func Glob
-type WalkFunc
-func Walk
-func HasPrefix
-
+IsAbs
+Abs
+Rel
+SplitList
+Split
+Join
+FromSlash
+ToSlash
+VolumeName
+Dir
+Base
+Ext
+Clean
+EvalSymlinks
+Match
+Glob
+WalkFunc
+Walk
+HasPrefix
 plugin
-type Plugin
-func Open
- Lookup
-type Symbol
+Plugin
+Open
+Lookup
+Symbol
 reflect
-
-type ValueError
- Error
-type Kind
- String
-type StringHeader
-type SliceHeader
-type StructField
-type StructTag
- Get
-type ChanDir
- String
-type SelectDir
-type SelectCase
-func Select
-type Method
-type Type
-func TypeOf
-func PtrTo
-func SliceOf
-func MapOf
-func ChanOf
-type Value
-func ValueOf
-func Zero
-func New
-func NewAt
-func Indirect
-func MakeSlice
-func MakeMap
-func MakeChan
-func MakeFunc
-func Append
-func AppendSlice
- IsValid
- IsNil
- Kind
- Type
- Convert
- Elem
- Bool
- Int
- OverflowInt
- Uint
- OverflowUint
- Float
- OverflowFloat
- Complex
- OverflowComplex
- Bytes
- String
- Pointer
- InterfaceData
- Slice
- Slice3
- Cap
- Len
- Index
- MapIndex
- MapKeys
- NumField
- Field
- FieldByIndex
- FieldByName
- FieldByNameFunc
- Recv
- TryRecv
- Send
- TrySend
- Close
- Call
- CallSlice
- NumMethod
- Method
- MethodByName
- CanAddr
- Addr
- UnsafeAddr
- CanInterface
- Interface
- CanSet
- SetBool
- SetInt
- SetUint
- SetFloat
- SetComplex
- SetBytes
- SetString
- SetPointer
- SetCap
- SetLen
- SetMapIndex
- Set
-func Copy
-func DeepEqual
+ValueError
+Error
+Kind
+String
+StringHeader
+SliceHeader
+StructField
+StructTag
+Get
+ChanDir
+String
+SelectDir
+SelectCase
+Select
+Method
+Type
+TypeOf
+PtrTo
+SliceOf
+MapOf
+ChanOf
+Value
+ValueOf
+Zero
+New
+NewAt
+Indirect
+MakeSlice
+MakeMap
+MakeChan
+MakeFunc
+Append
+AppendSlice
+IsValid
+IsNil
+Kind
+Type
+Convert
+Elem
+Bool
+Int
+OverflowInt
+Uint
+OverflowUint
+Float
+OverflowFloat
+Complex
+OverflowComplex
+Bytes
+String
+Pointer
+InterfaceData
+Slice
+Slice3
+Cap
+Len
+Index
+MapIndex
+MapKeys
+NumField
+Field
+FieldByIndex
+FieldByName
+FieldByNameFunc
+Recv
+TryRecv
+Send
+TrySend
+Close
+Call
+CallSlice
+NumMethod
+Method
+MethodByName
+CanAddr
+Addr
+UnsafeAddr
+CanInterface
+Interface
+CanSet
+SetBool
+SetInt
+SetUint
+SetFloat
+SetComplex
+SetBytes
+SetString
+SetPointer
+SetCap
+SetLen
+SetMapIndex
+Set
+Copy
+DeepEqual
 regexp
-func QuoteMeta
-func Match
-func MatchString
-func MatchReader
-type Regexp
-func Compile
-func CompilePOSIX
-func MustCompile
-func MustCompilePOSIX
- String
- LiteralPrefix
- Longest
- NumSubexp
- SubexpNames
- Match
- MatchString
- MatchReader
- Find
- FindString
- FindIndex
- FindStringIndex
- FindReaderIndex
- FindSubmatch
- FindStringSubmatch
- FindSubmatchIndex
- FindStringSubmatchIndex
- FindReaderSubmatchIndex
- FindAll
- FindAllString
- FindAllIndex
- FindAllStringIndex
- FindAllSubmatch
- FindAllStringSubmatch
- FindAllSubmatchIndex
- FindAllStringSubmatchIndex
- Split
- Expand
- ExpandString
- ReplaceAllLiteral
- ReplaceAllLiteralString
- ReplaceAll
- ReplaceAllString
- ReplaceAllFunc
- ReplaceAllStringFunc
-
+QuoteMeta
+Match
+MatchString
+MatchReader
+Regexp
+Compile
+CompilePOSIX
+MustCompile
+MustCompilePOSIX
+String
+LiteralPrefix
+Longest
+NumSubexp
+SubexpNames
+Match
+MatchString
+MatchReader
+Find
+FindString
+FindIndex
+FindStringIndex
+FindReaderIndex
+FindSubmatch
+FindStringSubmatch
+FindSubmatchIndex
+FindStringSubmatchIndex
+FindReaderSubmatchIndex
+FindAll
+FindAllString
+FindAllIndex
+FindAllStringIndex
+FindAllSubmatch
+FindAllStringSubmatch
+FindAllSubmatchIndex
+FindAllStringSubmatchIndex
+Split
+Expand
+ExpandString
+ReplaceAllLiteral
+ReplaceAllLiteralString
+ReplaceAll
+ReplaceAllString
+ReplaceAllFunc
+ReplaceAllStringFunc
 syntax
-func IsWordChar
-type EmptyOp
-func EmptyOpContext
-type Error
- Error
-type ErrorCode
- String
-type Flags
-type Inst
- MatchEmptyWidth
- MatchRune
- MatchRunePos
- String
-type InstOp
- String
-type Op
-type Prog
-func Compile
- Prefix
- StartCond
- String
-type Regexp
-func Parse
- CapNames
- Equal
- MaxCap
- Simplify
- String
+IsWordChar
+EmptyOp
+EmptyOpContext
+Error
+Error
+ErrorCode
+String
+Flags
+Inst
+MatchEmptyWidth
+MatchRune
+MatchRunePos
+String
+InstOp
+String
+Op
+Prog
+Compile
+Prefix
+StartCond
+String
+Regexp
+Parse
+CapNames
+Equal
+MaxCap
+Simplify
+String
 runtime
-
-type TypeAssertionError
- Error
- RuntimeError
-func GOROOT
-func Version
-func NumCPU
-func GOMAXPROCS
-func GC
-func SetFinalizer
-type MemStats
-func ReadMemStats
-type MemProfileRecord
- InUseBytes
- InUseObjects
- Stack
-func MemProfile
-func SetCPUProfileRate
-func CPUProfile
-func Breakpoint
-func Stack
-func Caller
-func Callers
-type StackRecord
- Stack
-type Func
-func FuncForPC
- Entry
- FileLine
- Name
-func NumCgoCall
-func NumGoroutine
-func Goexit
-func Gosched
-func GoroutineProfile
-func LockOSThread
-func UnlockOSThread
-func ThreadCreateProfile
-type BlockProfileRecord
-func SetBlockProfileRate
-func BlockProfile
-
+TypeAssertionError
+Error
+RuntimeError
+GOROOT
+Version
+NumCPU
+GOMAXPROCS
+GC
+SetFinalizer
+MemStats
+ReadMemStats
+MemProfileRecord
+InUseBytes
+InUseObjects
+Stack
+MemProfile
+SetCPUProfileRate
+CPUProfile
+Breakpoint
+Stack
+Caller
+Callers
+StackRecord
+Stack
+Func
+FuncForPC
+Entry
+FileLine
+Name
+NumCgoCall
+NumGoroutine
+Goexit
+Gosched
+GoroutineProfile
+LockOSThread
+UnlockOSThread
+ThreadCreateProfile
+BlockProfileRecord
+SetBlockProfileRate
+BlockProfile
 cgo
-
 debug
-func FreeOSMemory
-func SetGCPercent
-func SetMaxStack
-func SetMaxThreads
-func SetPanicOnFault
-type GCStats
-func ReadGCStats
-func WriteHeapDump
-func Stack
-func PrintStack
+FreeOSMemory
+SetGCPercent
+SetMaxStack
+SetMaxThreads
+SetPanicOnFault
+GCStats
+ReadGCStats
+WriteHeapDump
+Stack
+PrintStack
 pprof
-
-func Profiles
-func StartCPUProfile
-func StopCPUProfile
-func WriteHeapProfile
-type Profile
-func Lookup
-func NewProfile
- Name
- Add
- Count
- Remove
- WriteTo
-
+Profiles
+StartCPUProfile
+StopCPUProfile
+WriteHeapProfile
+Profile
+Lookup
+NewProfile
+Name
+Add
+Count
+Remove
+WriteTo
 race
 trace
 sort
-type Interface
-type IntSlice
- Len
- Less
- Search
- Sort
- Swap
-type Float64Slice
- Len
- Less
- Search
- Sort
- Swap
-type StringSlice
- Len
- Less
- Search
- Sort
- Swap
-func Ints
-func IntsAreSorted
-func SearchInts
-func Float64s
-func Float64sAreSorted
-func SearchFloat64s
-func Strings
-func StringsAreSorted
-func SearchStrings
-func Sort
-func Stable
-func Reverse
-func IsSorted
-func Search
+Interface
+IntSlice
+Len
+Less
+Search
+Sort
+Swap
+Float64Slice
+Len
+Less
+Search
+Sort
+Swap
+StringSlice
+Len
+Less
+Search
+Sort
+Swap
+Ints
+IntsAreSorted
+SearchInts
+Float64s
+Float64sAreSorted
+SearchFloat64s
+Strings
+StringsAreSorted
+SearchStrings
+Sort
+Stable
+Reverse
+IsSorted
+Search
 strconv
-type NumError
- Error
-func IsPrint
-func CanBackquote
-func Quote
-func QuoteToASCII
-func QuoteRune
-func QuoteRuneToASCII
-func Unquote
-func UnquoteChar
-func ParseBool
-func ParseInt
-func ParseUint
-func ParseFloat
-func FormatBool
-func FormatInt
-func FormatUint
-func FormatFloat
-func Atoi
-func Itoa
-func AppendBool
-func AppendInt
-func AppendUint
-func AppendFloat
-func AppendQuote
-func AppendQuoteToASCII
-func AppendQuoteRune
-func AppendQuoteRuneToASCII
+NumError
+Error
+IsPrint
+CanBackquote
+Quote
+QuoteToASCII
+QuoteRune
+QuoteRuneToASCII
+Unquote
+UnquoteChar
+ParseBool
+ParseInt
+ParseUint
+ParseFloat
+FormatBool
+FormatInt
+FormatUint
+FormatFloat
+Atoi
+Itoa
+AppendBool
+AppendInt
+AppendUint
+AppendFloat
+AppendQuote
+AppendQuoteToASCII
+AppendQuoteRune
+AppendQuoteRuneToASCII
 strings
-func EqualFold
-func HasPrefix
-func HasSuffix
-func Contains
-func ContainsRune
-func ContainsAny
-func Count
-func Index
-func IndexByte
-func IndexRune
-func IndexAny
-func IndexFunc
-func LastIndex
-func LastIndexAny
-func LastIndexFunc
-func Title
-func ToLower
-func ToLowerSpecial
-func ToUpper
-func ToUpperSpecial
-func ToTitle
-func ToTitleSpecial
-func Repeat
-func Replace
-func Map
-func Trim
-func TrimSpace
-func TrimFunc
-func TrimLeft
-func TrimLeftFunc
-func TrimPrefix
-func TrimRight
-func TrimRightFunc
-func TrimSuffix
-func Fields
-func FieldsFunc
-func Split
-func SplitN
-func SplitAfter
-func SplitAfterN
-func Join
-type Reader
-func NewReader
- Len
- Read
- ReadByte
- UnreadByte
- ReadRune
- UnreadRune
- Seek
- ReadAt
- WriteTo
-type Replacer
-func NewReplacer
- Replace
- WriteString
+EqualFold
+HasPrefix
+HasSuffix
+Contains
+ContainsRune
+ContainsAny
+Count
+Index
+IndexByte
+IndexRune
+IndexAny
+IndexFunc
+LastIndex
+LastIndexAny
+LastIndexFunc
+Title
+ToLower
+ToLowerSpecial
+ToUpper
+ToUpperSpecial
+ToTitle
+ToTitleSpecial
+Repeat
+Replace
+Map
+Trim
+TrimSpace
+TrimFunc
+TrimLeft
+TrimLeftFunc
+TrimPrefix
+TrimRight
+TrimRightFunc
+TrimSuffix
+Fields
+FieldsFunc
+Split
+SplitN
+SplitAfter
+SplitAfterN
+Join
+Reader
+NewReader
+Len
+Read
+ReadByte
+UnreadByte
+ReadRune
+UnreadRune
+Seek
+ReadAt
+WriteTo
+Replacer
+NewReplacer
+Replace
+WriteString
 sync
-type Locker
-type Once
- Do
-type Mutex
- Lock
- Unlock
-type RWMutex
- Lock
- Unlock
- RLock
- RUnlock
- RLocker
-type Cond
-func NewCond
- Broadcast
- Signal
- Wait
-type WaitGroup
- Add
- Done
- Wait
-type Pool
- Get
- Put
+Locker
+Once
+Do
+Mutex
+Lock
+Unlock
+RWMutex
+Lock
+Unlock
+RLock
+RUnlock
+RLocker
+Cond
+NewCond
+Broadcast
+Signal
+Wait
+WaitGroup
+Add
+Done
+Wait
+Pool
+Get
+Put
 atomic
-func LoadInt32
-func LoadInt64
-func LoadUint32
-func LoadUint64
-func LoadUintptr
-func LoadPointer
-func StoreInt32
-func StoreInt64
-func StoreUint32
-func StoreUint64
-func StoreUintptr
-func StorePointer
-func AddInt32
-func AddInt64
-func AddUint32
-func AddUint64
-func AddUintptr
-func SwapInt32
-func SwapInt64
-func SwapUint32
-func SwapUint64
-func SwapUintptr
-func SwapPointer
-func CompareAndSwapInt32
-func CompareAndSwapInt64
-func CompareAndSwapUint32
-func CompareAndSwapUint64
-func CompareAndSwapUintptr
-func CompareAndSwapPointer
+LoadInt32
+LoadInt64
+LoadUint32
+LoadUint64
+LoadUintptr
+LoadPointer
+StoreInt32
+StoreInt64
+StoreUint32
+StoreUint64
+StoreUintptr
+StorePointer
+AddInt32
+AddInt64
+AddUint32
+AddUint64
+AddUintptr
+SwapInt32
+SwapInt64
+SwapUint32
+SwapUint64
+SwapUintptr
+SwapPointer
+CompareAndSwapInt32
+CompareAndSwapInt64
+CompareAndSwapUint32
+CompareAndSwapUint64
+CompareAndSwapUintptr
+CompareAndSwapPointer
 syscall
-
-func Accept
-func Accept4
-func Access
-func Acct
-func Adjtimex
-func AttachLsf
-func Bind
-func BindToDevice
-func BytePtrFromString
-func ByteSliceFromString
-func Chdir
-func Chmod
-func Chown
-func Chroot
-func Clearenv
-func Close
-func CloseOnExec
-func CmsgLen
-func CmsgSpace
-func Connect
-func Creat
-func DetachLsf
-func Dup
-func Dup2
-func Dup3
-func Environ
-func EpollCreate
-func EpollCreate1
-func EpollCtl
-func EpollWait
-func Exec
-func Exit
-func Faccessat
-func Fallocate
-func Fchdir
-func Fchmod
-func Fchmodat
-func Fchown
-func Fchownat
-func FcntlFlock
-func Fdatasync
-func Flock
-func ForkExec
-func Fstat
-func Fstatfs
-func Fsync
-func Ftruncate
-func Futimes
-func Futimesat
-func Getcwd
-func Getdents
-func Getegid
-func Getenv
-func Geteuid
-func Getgid
-func Getgroups
-func Getpagesize
-func Getpgid
-func Getpgrp
-func Getpid
-func Getppid
-func Getpriority
-func Getrlimit
-func Getrusage
-func GetsockoptInet4Addr
-func GetsockoptInt
-func Gettid
-func Gettimeofday
-func Getuid
-func Getwd
-func Getxattr
-func InotifyAddWatch
-func InotifyInit
-func InotifyInit1
-func InotifyRmWatch
-func Ioperm
-func Iopl
-func Kill
-func Klogctl
-func Lchown
-func Link
-func Listen
-func Listxattr
-func LsfSocket
-func Lstat
-func Madvise
-func Mkdir
-func Mkdirat
-func Mkfifo
-func Mknod
-func Mknodat
-func Mlock
-func Mlockall
-func Mmap
-func Mount
-func Mprotect
-func Munlock
-func Munlockall
-func Munmap
-func Nanosleep
-func NetlinkRIB
-func Open
-func Openat
-func ParseDirent
-func ParseNetlinkMessage
-func ParseNetlinkRouteAttr
-func ParseSocketControlMessage
-func ParseUnixRights
-func Pause
-func Pipe
-func Pipe2
-func PivotRoot
-func Pread
-func PtraceAttach
-func PtraceCont
-func PtraceDetach
-func PtraceGetEventMsg
-func PtraceGetRegs
-func PtracePeekData
-func PtracePeekText
-func PtracePokeData
-func PtracePokeText
-func PtraceSetOptions
-func PtraceSetRegs
-func PtraceSingleStep
-func PtraceSyscall
-func Pwrite
-func RawSyscall
-func RawSyscall6
-func Read
-func ReadDirent
-func Readlink
-func Reboot
-func Recvfrom
-func Recvmsg
-func Removexattr
-func Rename
-func Renameat
-func Rmdir
-func Seek
-func Select
-func Sendfile
-func Sendmsg
-func SendmsgN
-func Sendto
-func SetLsfPromisc
-func SetNonblock
-func Setdomainname
-func Setenv
-func Setfsgid
-func Setfsuid
-func Setgid
-func Setgroups
-func Sethostname
-func Setpgid
-func Setpriority
-func Setregid
-func Setresgid
-func Setresuid
-func Setreuid
-func Setrlimit
-func Setsid
-func SetsockoptByte
-func SetsockoptICMPv6Filter
-func SetsockoptIPMreq
-func SetsockoptIPMreqn
-func SetsockoptIPv6Mreq
-func SetsockoptInet4Addr
-func SetsockoptInt
-func SetsockoptLinger
-func SetsockoptString
-func SetsockoptTimeval
-func Settimeofday
-func Setuid
-func Setxattr
-func Shutdown
-func SlicePtrFromStrings
-func Socket
-func Socketpair
-func Splice
-func StartProcess
-func Stat
-func Statfs
-func StringBytePtr
-func StringByteSlice
-func StringSlicePtr
-func Symlink
-func Sync
-func SyncFileRange
-func Syscall
-func Syscall6
-func Sysinfo
-func Tee
-func Tgkill
-func Times
-func TimespecToNsec
-func TimevalToNsec
-func Truncate
-func Umask
-func Uname
-func UnixCredentials
-func UnixRights
-func Unlink
-func Unlinkat
-func Unmount
-func Unsetenv
-func Unshare
-func Ustat
-func Utime
-func Utimes
-func UtimesNano
-func Wait4
-func Write
-type Cmsghdr
- SetLen
-type Credential
-type Dirent
-type EpollEvent
-type Errno
- Error
- Temporary
- Timeout
-type FdSet
-type Flock_t
-type Fsid
-type ICMPv6Filter
-func GetsockoptICMPv6Filter
-type IPMreq
-func GetsockoptIPMreq
-type IPMreqn
-func GetsockoptIPMreqn
-type IPv6MTUInfo
-func GetsockoptIPv6MTUInfo
-type IPv6Mreq
-func GetsockoptIPv6Mreq
-type IfAddrmsg
-type IfInfomsg
-type Inet4Pktinfo
-type Inet6Pktinfo
-type InotifyEvent
-type Iovec
- SetLen
-type Linger
-type Msghdr
- SetControllen
-type NetlinkMessage
-type NetlinkRouteAttr
-type NetlinkRouteRequest
-type NlAttr
-type NlMsgerr
-type NlMsghdr
-type ProcAttr
-type PtraceRegs
- PC
- SetPC
-type RawSockaddr
-type RawSockaddrAny
-type RawSockaddrInet4
-type RawSockaddrInet6
-type RawSockaddrLinklayer
-type RawSockaddrNetlink
-type RawSockaddrUnix
-type Rlimit
-type RtAttr
-type RtGenmsg
-type RtMsg
-type RtNexthop
-type Rusage
-type Signal
- Signal
- String
-type SockFilter
-func LsfJump
-func LsfStmt
-type SockFprog
-type Sockaddr
-func Getpeername
-func Getsockname
-type SockaddrInet4
-type SockaddrInet6
-type SockaddrLinklayer
-type SockaddrNetlink
-type SockaddrUnix
-type SocketControlMessage
-type Stat_t
-type Statfs_t
-type SysProcAttr
-type SysProcIDMap
-type Sysinfo_t
-type TCPInfo
-type Termios
-type Time_t
-func Time
-type Timespec
-func NsecToTimespec
- Nano
- Unix
-type Timeval
-func NsecToTimeval
- Nano
- Unix
-type Timex
-type Tms
-type Ucred
-func GetsockoptUcred
-func ParseUnixCredentials
-type Ustat_t
-type Utimbuf
-type Utsname
-type WaitStatus
- Continued
- CoreDump
- ExitStatus
- Exited
- Signal
- Signaled
- StopSignal
- Stopped
- TrapCause
-
+Accept
+Accept4
+Access
+Acct
+Adjtimex
+AttachLsf
+Bind
+BindToDevice
+BytePtrFromString
+ByteSliceFromString
+Chdir
+Chmod
+Chown
+Chroot
+Clearenv
+Close
+CloseOnExec
+CmsgLen
+CmsgSpace
+Connect
+Creat
+DetachLsf
+Dup
+Dup2
+Dup3
+Environ
+EpollCreate
+EpollCreate1
+EpollCtl
+EpollWait
+Exec
+Exit
+Faccessat
+Fallocate
+Fchdir
+Fchmod
+Fchmodat
+Fchown
+Fchownat
+FcntlFlock
+Fdatasync
+Flock
+ForkExec
+Fstat
+Fstatfs
+Fsync
+Ftruncate
+Futimes
+Futimesat
+Getcwd
+Getdents
+Getegid
+Getenv
+Geteuid
+Getgid
+Getgroups
+Getpagesize
+Getpgid
+Getpgrp
+Getpid
+Getppid
+Getpriority
+Getrlimit
+Getrusage
+GetsockoptInet4Addr
+GetsockoptInt
+Gettid
+Gettimeofday
+Getuid
+Getwd
+Getxattr
+InotifyAddWatch
+InotifyInit
+InotifyInit1
+InotifyRmWatch
+Ioperm
+Iopl
+Kill
+Klogctl
+Lchown
+Link
+Listen
+Listxattr
+LsfSocket
+Lstat
+Madvise
+Mkdir
+Mkdirat
+Mkfifo
+Mknod
+Mknodat
+Mlock
+Mlockall
+Mmap
+Mount
+Mprotect
+Munlock
+Munlockall
+Munmap
+Nanosleep
+NetlinkRIB
+Open
+Openat
+ParseDirent
+ParseNetlinkMessage
+ParseNetlinkRouteAttr
+ParseSocketControlMessage
+ParseUnixRights
+Pause
+Pipe
+Pipe2
+PivotRoot
+Pread
+PtraceAttach
+PtraceCont
+PtraceDetach
+PtraceGetEventMsg
+PtraceGetRegs
+PtracePeekData
+PtracePeekText
+PtracePokeData
+PtracePokeText
+PtraceSetOptions
+PtraceSetRegs
+PtraceSingleStep
+PtraceSyscall
+Pwrite
+RawSyscall
+RawSyscall6
+Read
+ReadDirent
+Readlink
+Reboot
+Recvfrom
+Recvmsg
+Removexattr
+Rename
+Renameat
+Rmdir
+Seek
+Select
+Sendfile
+Sendmsg
+SendmsgN
+Sendto
+SetLsfPromisc
+SetNonblock
+Setdomainname
+Setenv
+Setfsgid
+Setfsuid
+Setgid
+Setgroups
+Sethostname
+Setpgid
+Setpriority
+Setregid
+Setresgid
+Setresuid
+Setreuid
+Setrlimit
+Setsid
+SetsockoptByte
+SetsockoptICMPv6Filter
+SetsockoptIPMreq
+SetsockoptIPMreqn
+SetsockoptIPv6Mreq
+SetsockoptInet4Addr
+SetsockoptInt
+SetsockoptLinger
+SetsockoptString
+SetsockoptTimeval
+Settimeofday
+Setuid
+Setxattr
+Shutdown
+SlicePtrFromStrings
+Socket
+Socketpair
+Splice
+StartProcess
+Stat
+Statfs
+StringBytePtr
+StringByteSlice
+StringSlicePtr
+Symlink
+Sync
+SyncFileRange
+Syscall
+Syscall6
+Sysinfo
+Tee
+Tgkill
+Times
+TimespecToNsec
+TimevalToNsec
+Truncate
+Umask
+Uname
+UnixCredentials
+UnixRights
+Unlink
+Unlinkat
+Unmount
+Unsetenv
+Unshare
+Ustat
+Utime
+Utimes
+UtimesNano
+Wait4
+Write
+Cmsghdr
+SetLen
+Credential
+Dirent
+EpollEvent
+Errno
+Error
+Temporary
+Timeout
+FdSet
+Flock_t
+Fsid
+ICMPv6Filter
+GetsockoptICMPv6Filter
+IPMreq
+GetsockoptIPMreq
+IPMreqn
+GetsockoptIPMreqn
+IPv6MTUInfo
+GetsockoptIPv6MTUInfo
+IPv6Mreq
+GetsockoptIPv6Mreq
+IfAddrmsg
+IfInfomsg
+Inet4Pktinfo
+Inet6Pktinfo
+InotifyEvent
+Iovec
+SetLen
+Linger
+Msghdr
+SetControllen
+NetlinkMessage
+NetlinkRouteAttr
+NetlinkRouteRequest
+NlAttr
+NlMsgerr
+NlMsghdr
+ProcAttr
+PtraceRegs
+PC
+SetPC
+RawSockaddr
+RawSockaddrAny
+RawSockaddrInet4
+RawSockaddrInet6
+RawSockaddrLinklayer
+RawSockaddrNetlink
+RawSockaddrUnix
+Rlimit
+RtAttr
+RtGenmsg
+RtMsg
+RtNexthop
+Rusage
+Signal
+Signal
+String
+SockFilter
+LsfJump
+LsfStmt
+SockFprog
+Sockaddr
+Getpeername
+Getsockname
+SockaddrInet4
+SockaddrInet6
+SockaddrLinklayer
+SockaddrNetlink
+SockaddrUnix
+SocketControlMessage
+Stat_t
+Statfs_t
+SysProcAttr
+SysProcIDMap
+Sysinfo_t
+TCPInfo
+Termios
+Time_t
+Time
+Timespec
+NsecToTimespec
+Nano
+Unix
+Timeval
+NsecToTimeval
+Nano
+Unix
+Timex
+Tms
+Ucred
+GetsockoptUcred
+ParseUnixCredentials
+Ustat_t
+Utimbuf
+Utsname
+WaitStatus
+Continued
+CoreDump
+ExitStatus
+Exited
+Signal
+Signaled
+StopSignal
+Stopped
+TrapCause
 testing
-
-func AllocsPerRun
-func CoverMode
-func Coverage
-func Main
-func RegisterCover
-func RunBenchmarks
-func RunExamples
-func RunTests
-func Short
-func Verbose
-type B
- Error
- Errorf
- Fail
- FailNow
- Failed
- Fatal
- Fatalf
- Log
- Logf
- Name
- ReportAllocs
- ResetTimer
- Run
- RunParallel
- SetBytes
- SetParallelism
- Skip
- SkipNow
- Skipf
- Skipped
- StartTimer
- StopTimer
-type BenchmarkResult
-func Benchmark
- AllocedBytesPerOp
- AllocsPerOp
- MemString
- NsPerOp
- String
-type Cover
-type CoverBlock
-type InternalBenchmark
-type InternalExample
-type InternalTest
-type M
-func MainStart
- Run
-type PB
- Next
-type T
- Error
- Errorf
- Fail
- FailNow
- Failed
- Fatal
- Fatalf
- Log
- Logf
- Name
- Parallel
- Run
- Skip
- SkipNow
- Skipf
- Skipped
-type TB
+AllocsPerRun
+CoverMode
+Coverage
+Main
+RegisterCover
+RunBenchmarks
+RunExamples
+RunTests
+Short
+Verbose
+B
+Error
+Errorf
+Fail
+FailNow
+Failed
+Fatal
+Fatalf
+Log
+Logf
+Name
+ReportAllocs
+ResetTimer
+Run
+RunParallel
+SetBytes
+SetParallelism
+Skip
+SkipNow
+Skipf
+Skipped
+StartTimer
+StopTimer
+BenchmarkResult
+Benchmark
+AllocedBytesPerOp
+AllocsPerOp
+MemString
+NsPerOp
+String
+Cover
+CoverBlock
+InternalBenchmark
+InternalExample
+InternalTest
+M
+MainStart
+Run
+PB
+Next
+T
+Error
+Errorf
+Fail
+FailNow
+Failed
+Fatal
+Fatalf
+Log
+Logf
+Name
+Parallel
+Run
+Skip
+SkipNow
+Skipf
+Skipped
+TB
 iotest
-func DataErrReader
-func HalfReader
-func NewReadLogger
-func NewWriteLogger
-func OneByteReader
-func TimeoutReader
-func TruncateWriter
-
+DataErrReader
+HalfReader
+NewReadLogger
+NewWriteLogger
+OneByteReader
+TimeoutReader
+TruncateWriter
 quick
-func Check
-func CheckEqual
-func Value
-type CheckEqualError
- Error
-type CheckError
- Error
-type Config
-type Generator
-type SetupError
- Error
+Check
+CheckEqual
+Value
+CheckEqualError
+Error
+CheckError
+Error
+Config
+Generator
+SetupError
+Error
 scanner
-func TokenString
-type Position
- IsValid
- String
-type Scanner
- Init
- Pos
- Peek
- Next
- Scan
- TokenText
-
+TokenString
+Position
+IsValid
+String
+Scanner
+Init
+Pos
+Peek
+Next
+Scan
+TokenText
 tabwriter
-func NewWriter
- Init
- Write
- Flush
-
+NewWriter
+Init
+Write
+Flush
 text
 template
-
-func HTMLEscape
-func HTMLEscapeString
-func HTMLEscaper
-func JSEscape
-func JSEscapeString
-func JSEscaper
-func URLQueryEscaper
-type FuncMap
-type Template
-func Must
-func New
-func ParseFiles
-func ParseGlob
- Name
- Delims
- Funcs
- Clone
- Lookup
- Templates
- New
- AddParseTree
- Parse
- ParseFiles
- ParseGlob
- Execute
- ExecuteTemplate
+HTMLEscape
+HTMLEscapeString
+HTMLEscaper
+JSEscape
+JSEscapeString
+JSEscaper
+URLQueryEscaper
+FuncMap
+Template
+Must
+New
+ParseFiles
+ParseGlob
+Name
+Delims
+Funcs
+Clone
+Lookup
+Templates
+New
+AddParseTree
+Parse
+ParseFiles
+ParseGlob
+Execute
+ExecuteTemplate
 parse
-func IsEmptyTree
-func Parse
-type ActionNode
- Copy
- String
-type BoolNode
- Copy
- String
-type BranchNode
- Copy
- String
-type ChainNode
- Add
- Copy
- String
-type CommandNode
- Copy
- String
-type DotNode
- Copy
- String
- Type
-type FieldNode
- Copy
- String
-type IdentifierNode
-func NewIdentifier
- Copy
- SetPos
- SetTree
- String
-type IfNode
- Copy
-type ListNode
- Copy
- CopyList
- String
-type NilNode
- Copy
- String
- Type
-type Node
-type NodeType
- Type
-type NumberNode
- Copy
- String
-type PipeNode
- Copy
- CopyPipe
- String
-type Pos
- Position
-type RangeNode
- Copy
-type StringNode
- Copy
- String
-type TemplateNode
- Copy
- String
-type TextNode
- Copy
- String
-type Tree
-func New
- Copy
- ErrorContext
- Parse
-type VariableNode
- Copy
- String
-type WithNode
- Copy
+IsEmptyTree
+Parse
+ActionNode
+Copy
+String
+BoolNode
+Copy
+String
+BranchNode
+Copy
+String
+ChainNode
+Add
+Copy
+String
+CommandNode
+Copy
+String
+DotNode
+Copy
+String
+Type
+FieldNode
+Copy
+String
+IdentifierNode
+NewIdentifier
+Copy
+SetPos
+SetTree
+String
+IfNode
+Copy
+ListNode
+Copy
+CopyList
+String
+NilNode
+Copy
+String
+Type
+Node
+NodeType
+Type
+NumberNode
+Copy
+String
+PipeNode
+Copy
+CopyPipe
+String
+Pos
+Position
+RangeNode
+Copy
+StringNode
+Copy
+String
+TemplateNode
+Copy
+String
+TextNode
+Copy
+String
+Tree
+New
+Copy
+ErrorContext
+Parse
+VariableNode
+Copy
+String
+WithNode
+Copy
 time
-
-type ParseError
- Error
-type Weekday
- String
-type Month
- String
-type Location
-func LoadLocation
-func FixedZone
- String
-type Time
-func Date
-func Parse
-func ParseInLocation
-func Now
-func Unix
- Location
- Zone
- IsZero
- Local
- UTC
- In
- Unix
- UnixNano
- Equal
- Before
- After
- Date
- Clock
- Year
- Month
- ISOWeek
- YearDay
- Day
- Weekday
- Hour
- Minute
- Second
- Nanosecond
- Add
- AddDate
- Sub
- Round
- Truncate
- Format
- String
- GobEncode
- GobDecode
- MarshalBinary
- UnmarshalBinary
- MarshalJSON
- UnmarshalJSON
- MarshalText
- UnmarshalText
-type Duration
-func ParseDuration
-func Since
- Hours
- Minutes
- Seconds
- Nanoseconds
- String
-type Timer
-func NewTimer
-func AfterFunc
- Reset
- Stop
-type Ticker
-func NewTicker
- Stop
-func Sleep
-func After
-func Tick
-
+ParseError
+Error
+Weekday
+String
+Month
+String
+Location
+LoadLocation
+FixedZone
+String
+Time
+Date
+Parse
+ParseInLocation
+Now
+Unix
+Location
+Zone
+IsZero
+Local
+UTC
+In
+Unix
+UnixNano
+Equal
+Before
+After
+Date
+Clock
+Year
+Month
+ISOWeek
+YearDay
+Day
+Weekday
+Hour
+Minute
+Second
+Nanosecond
+Add
+AddDate
+Sub
+Round
+Truncate
+Format
+String
+GobEncode
+GobDecode
+MarshalBinary
+UnmarshalBinary
+MarshalJSON
+UnmarshalJSON
+MarshalText
+UnmarshalText
+Duration
+ParseDuration
+Since
+Hours
+Minutes
+Seconds
+Nanoseconds
+String
+Timer
+NewTimer
+AfterFunc
+Reset
+Stop
+Ticker
+NewTicker
+Stop
+Sleep
+After
+Tick
 unicode
-type CaseRange
-type Range16
-type Range32
-type RangeTable
-type SpecialCase
- ToLower
- ToUpper
- ToTitle
-func Is
-func In
-func IsOneOf
-func IsSpace
-func IsDigit
-func IsNumber
-func IsLetter
-func IsGraphic
-func IsControl
-func IsMark
-func IsPrint
-func IsPunct
-func IsSymbol
-func IsLower
-func IsUpper
-func IsTitle
-func To
-func ToLower
-func ToUpper
-func ToTitle
-func SimpleFold
+CaseRange
+Range16
+Range32
+RangeTable
+SpecialCase
+ToLower
+ToUpper
+ToTitle
+Is
+In
+IsOneOf
+IsSpace
+IsDigit
+IsNumber
+IsLetter
+IsGraphic
+IsControl
+IsMark
+IsPrint
+IsPunct
+IsSymbol
+IsLower
+IsUpper
+IsTitle
+To
+ToLower
+ToUpper
+ToTitle
+SimpleFold
 utf16
-func IsSurrogate
-func DecodeRune
-func Decode
-func EncodeRune
-func Encode
+IsSurrogate
+DecodeRune
+Decode
+EncodeRune
+Encode
 utf8
-func ValidRune
-func RuneLen
-func RuneStart
-func FullRune
-func FullRuneInString
-func Valid
-func ValidString
-func RuneCount
-func RuneCountInString
-func EncodeRune
-func DecodeRune
-func DecodeRuneInString
-func DecodeLastRune
-func DecodeLastRuneInString
+ValidRune
+RuneLen
+RuneStart
+FullRune
+FullRuneInString
+Valid
+ValidString
+RuneCount
+RuneCountInString
+EncodeRune
+DecodeRune
+DecodeRuneInString
+DecodeLastRune
+DecodeLastRuneInString
 unsafe
-type ArbitraryType
-type Pointer
-func Sizeof
-func Alignof
-func Offsetof
+ArbitraryType
+Pointer
+Sizeof
+Alignof
+Offsetof
