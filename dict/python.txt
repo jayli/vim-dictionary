@@ -163,6 +163,7 @@ O_RSYNC
 O_SYNC
 O_TRUNC
 O_WRONLY
+directory
 ObjectType
 OverflowError
 PM_STR
