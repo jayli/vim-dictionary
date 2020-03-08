@@ -27,37 +27,6 @@ Interface
 PassThrough
 ReadStream
 Readable
-SIGABRT
-SIGALRM
-SIGBUS
-SIGCHLD
-SIGCONT
-SIGFPE
-SIGHUP
-SIGILL
-SIGINT
-SIGKILL
-SIGPIPE
-SIGPOLL
-SIGPROF
-SIGQUIT
-SIGSEGV
-SIGSTOP
-SIGSYS
-SIGTERM
-SIGTRAP
-SIGTSTP
-SIGTTIN
-SIGTTOU
-SIGURG
-SIGUSR1
-SIGUSR2
-SIGVTALRM
-SIGXCPU
-SIGXFSZ
-SLAB_BUFFER_SIZE
-STATUS_CODES
-Script
 SecurePair
 Server
 ServerResponse
@@ -72,15 +41,6 @@ Verify
 Worker
 Writable
 WriteStream
-Zlib
-__defineGetter__
-__defineSetter__
-__dirname
-__filename
-_flush
-_read
-_transform
-_write
 abort
 add
 addContext
@@ -311,7 +271,6 @@ normalize
 notDeepEqual
 notEqual
 notStrictEqual
-ok
 on
 once
 online
@@ -555,7 +514,6 @@ textarea	top	unescape	untaint	window
 onblur	onclick	onerror	onfocus
 onkeydown	onkeypress	onkeyup	onmouseover
 onload	onmouseup	onmousedown	onsubmit
-
 SyntaxError ReferenceError RangeError TypeError URLError EvalError
 
 html document location navigator screen history frames
